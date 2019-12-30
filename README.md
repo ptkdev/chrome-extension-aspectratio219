@@ -37,6 +37,9 @@
 * [❌] Customize Aspect ratio value (for 32:9 or 19:10 monitors)
 * [❌] Unsupported website (enable if html5 video player exist)
 
+## 🚀 Installation 
+The extension is being approved. It will be available on the official store soon. Use the Developer Mode (nightly branch). 
+
 ## 🔨 Developer Mode
 1. Download [stable](https://github.com/ptkdev/chrome-extension-aspectratio219/archive/master.zip), [beta](https://github.com/ptkdev/chrome-extension-aspectratio219/archive/beta.zip) or [nightly](https://github.com/ptkdev/chrome-extension-aspectratio219/archive/nightly.zip) and extract it.
 2. Install Google Chrome.
