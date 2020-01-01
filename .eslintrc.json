@@ -23,8 +23,7 @@
 			}
 		},
         "html/html-extensions": [".html", ".twig", ".vue"],
-        "html/indent": "tab",
-        "snakecasejs/whitelist": ["createElement", "appendChild", "getElementsByClassName", "setAttribute"]
+        "html/indent": "tab"
 	},
 	"rules": {
 		"no-multi-spaces": ["error", { "ignoreEOLComments": true, "exceptions": { "VariableDeclarator": true } }],
