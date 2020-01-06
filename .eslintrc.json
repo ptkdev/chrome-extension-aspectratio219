@@ -5,6 +5,9 @@
 		"node": true,
 		"jest/globals": true
 	},
+    "globals": {
+        "dom": "readonly"
+    },
 	"extends": "eslint:recommended",
 	"parserOptions": {
 		"sourceType": "module",
@@ -13,8 +16,7 @@
 	"plugins": [
 		"snakecasejs",
 		"jsdoc",
-		"jest",
-		"html"
+		"jest"
 	],
 	"settings": {
 		"jsdoc": {
@@ -22,8 +24,7 @@
 				"returns": "return"
 			}
 		},
-        "html/html-extensions": [".html", ".twig", ".vue"],
-        "html/indent": "tab"
+		"snakecasejs/whitelist": ["childList"]
 	},
 	"rules": {
 		"no-multi-spaces": ["error", { "ignoreEOLComments": true, "exceptions": { "VariableDeclarator": true } }],

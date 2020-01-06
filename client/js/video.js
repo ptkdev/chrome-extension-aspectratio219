@@ -5,6 +5,8 @@
  *
  * @contributors: Patryk Rzucidło [@ptkdev] <support@ptkdev.io> (https://ptkdev.it)
  *
+ * @link: http://patorjk.com/software/taag/#p=display&f=Doom&t=Netflix
+ *
  * @license: This code and contributions have 'MIT License'
  *
  */
@@ -92,7 +94,7 @@ window.onload = function() {
 		};
 
 		function dailymotion_interval() {
-			let node = document.getElementsByClassName("dmp_VideoView-content")[0];
+			let node = dom.class("dmp_VideoView-content")[0];
 			if (node !== undefined) {
 				node.setAttribute("style", "width: 100%; height: 100%;");
 			}
@@ -155,6 +157,51 @@ window.onload = function() {
 		}
 
 		setInterval(vvvvid_interval, 1000);
+
+		let node = document.createElement("style");
+		node.innerHTML = `body video { transform: scale(${aspect_ratio},1) !important; left: ${config.left} !important; top: ${config.top} !important;}`;
+		document.body.appendChild(node);
+	}
+
+	/*
+	 *	 _____                       _                     _ _
+	 *	/  __ \                     | |                   | | |
+	 *	| /  \/_ __ _   _ _ __   ___| |__  _   _ _ __ ___ | | |
+	 *	| |   | '__| | | | '_ \ / __| '_ \| | | | '__/ _ \| | |
+	 *	| \__/\ |  | |_| | | | | (__| | | | |_| | | | (_) | | |
+	 *	 \____/_|   \__,_|_| |_|\___|_| |_|\__, |_|  \___/|_|_|
+	 *	                                    __/ |
+	 *	                                   |___/
+	*/
+	if (window.location.href.includes("crunchyroll.com")) {
+		config = {
+			width: "100%",
+			height: "auto",
+			left: "0",
+			top: "0"
+		};
+
+		let node = document.createElement("style");
+		node.innerHTML = `body video { transform: scale(${aspect_ratio},1) !important; left: ${config.left} !important; top: ${config.top} !important;}`;
+		document.body.appendChild(node);
+	}
+
+	/*
+	 *	 _____        _ _       _
+	 *	|_   _|      (_) |     | |
+	 *	  | |_      ___| |_ ___| |__
+	 *	  | \ \ /\ / / | __/ __| '_ \
+	 *	  | |\ V  V /| | || (__| | | |
+	 *	  \_/ \_/\_/ |_|\__\___|_| |_|
+	 *
+	*/
+	if (window.location.href.includes("twitch.tv")) {
+		config = {
+			width: "100%",
+			height: "auto",
+			left: "0",
+			top: "0"
+		};
 
 		let node = document.createElement("style");
 		node.innerHTML = `body video { transform: scale(${aspect_ratio},1) !important; left: ${config.left} !important; top: ${config.top} !important;}`;

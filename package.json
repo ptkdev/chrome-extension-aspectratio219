@@ -1,7 +1,7 @@
 {
-	"name": "chrome-extension-aspectratio219",
+	"name": "@ptkdev/chrome-extension-aspectratio219",
 	"description": "Fit the screen properly in fullscreen mode on monitor with 21:9 aspect ratio.",
-	"version": "0.0.2",
+	"version": "0.0.3",
 	"main": "src/manifest.json",
 	"author": "Patryk Rzucidło [@ptkdev] <support@ptkdev.io> (https://ptk.dev)",
 	"license": "MIT",
@@ -11,14 +11,22 @@
 	"bugs": {
 		"url": "https://github.com/ptkdev/chrome-extension-aspectratio219/issues"
 	},
+	"donate": {
+		"github": "https://github.com/sponsors/ptkdev",
+		"patreon": "https://www.patreon.com/ptkdev",
+		"paypal": "https://www.paypal.me/ptkdev",
+		"ko-fi": "https://ko-fi.com/ptkdev"
+	},
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/ptkdev/chrome-extension-aspectratio219.git"
 	},
 	"scripts": {
+		"start": "gulp build",
+		"dev": "gulp build && gulp dev",
 		"lint": "eslint ./ --cache --ignore-pattern .gitignore",
 		"lint-fix": "eslint ./ --cache --ignore-pattern .gitignore --fix",
-		"clean": "rm -rf node_modules package-lock.json && npm install",
+		"clean": "rm -rf node_modules build package-lock.json && npm install",
 		"update": "rm -f package-lock.json && npm update",
 		"docs": "markserv ./README.md",
 		"contributors-generate": "all-contributors generate"
@@ -43,7 +51,10 @@
 	"engines": {
 		"node": ">=10.0.0"
 	},
-	"dependencies": {},
+	"dependencies": {
+		"bulma": "latest",
+		"bulma-extensions": "latest"
+	},
 	"devDependencies": {
 		"eslint": "latest",
 		"eslint-config-standard": "latest",
@@ -51,16 +62,25 @@
 		"eslint-plugin-jsdoc": "latest",
 		"eslint-plugin-jest": "latest",
 		"eslint-plugin-node": "latest",
-		"eslint-plugin-html": "latest",
 		"eslint-plugin-snakecasejs": "latest",
 		"eslint-plugin-promise": "latest",
-		"all-contributors-cli": "latest",
-		"json": "latest",
+		"gulp": "latest",
+		"gulp-concat": "latest",
+		"gulp-clean-css": "latest",
+		"gulp-terser": "latest",
+		"gulp-rename": "latest",
+		"gulp-nunjucks": "latest",
+		"gulp-data": "latest",
+		"gulp-run": "latest",
+		"gulp-sass": "latest",
 		"chai": "latest",
+		"cpy-cli": "latest",
+		"json": "latest",
 		"jest": "latest",
 		"husky": "latest",
 		"yargs": "latest",
-		"markserv": "latest"
+		"markserv": "latest",
+		"all-contributors-cli": "latest"
 	},
 	"contributors": []
 }

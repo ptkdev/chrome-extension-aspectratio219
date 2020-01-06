@@ -2,7 +2,7 @@
 
 # 🖥 Chrome Extension: Aspect Ratio 21:9
 
-[![](https://img.shields.io/badge/version-v0.0.2-lightgrey.svg)](https://github.com/ptkdev/chrome-extension-aspectratio219/releases) [![](https://img.shields.io/badge/license-MIT-brightgreen.svg)](https://github.com/ptkdev/chrome-extension-aspectratio219/blob/nightly/LICENSE.md) [![](https://img.shields.io/badge/ES-9-F7DF1E.svg)](https://wikipedia.org/wiki/ECMAScript) [![](https://snyk.io/test/github/ptkdev/chrome-extension-aspectratio219/badge.svg)](https://snyk.io/test/github/ptkdev/chrome-extension-aspectratio219)
+[![](https://img.shields.io/badge/version-v0.0.3-lightgrey.svg)](https://github.com/ptkdev/chrome-extension-aspectratio219/releases) [![](https://img.shields.io/badge/license-MIT-brightgreen.svg)](https://github.com/ptkdev/chrome-extension-aspectratio219/blob/nightly/LICENSE.md) [![](https://img.shields.io/badge/ES-9-F7DF1E.svg)](https://wikipedia.org/wiki/ECMAScript) [![](https://snyk.io/test/github/ptkdev/chrome-extension-aspectratio219/badge.svg)](https://snyk.io/test/github/ptkdev/chrome-extension-aspectratio219)
 
 > Fit the screen properly in fullscreen mode on monitor with 21:9 aspect ratio. Work on Netflix, Youtube, PrimeVideo, VVVVID, etc...
 
@@ -35,25 +35,30 @@
 * [✔️] Dailymotion
 * [✔️] Vimeo
 * [✔️] VVVVID
+* [✔️] Crunchyroll
+* [✔️] Twitch
 
 ### 📝 TODO
 * [❌] ON / OFF Button
+* [❌] Translations
 * [❌] Customize Aspect ratio value (for 32:9 or 19:10 monitors)
 * [❌] Unsupported website (enable if html5 video player exist)
 
 ## 🚀 Installation
-1. Install extension from [chrome store](https://chrome.google.com/webstore/detail/aspect-ratio-219/mgpbkhkpghgmihmcfbndejmkaibbnljo?hl=it).
+1. Install extension from [chrome store](https://chrome.google.com/webstore/detail/aspect-ratio-219/mgpbkhkpghgmihmcfbndejmkaibbnljo).
 2. Go to netflix/youtube/primevideo/etc...
 3. Open video
 4. Bye bye side black bars!
 
 ## 🔨 Developer Mode
 1. Download [stable](https://github.com/ptkdev/chrome-extension-aspectratio219/archive/master.zip), [beta](https://github.com/ptkdev/chrome-extension-aspectratio219/archive/beta.zip) or [nightly](https://github.com/ptkdev/chrome-extension-aspectratio219/archive/nightly.zip) and extract it.
+2. Run `npm install`
+3. Run `npm run dev`
 2. Install Google Chrome.
 3. Go to [extension page](chrome://extensions/).
 4. Enable developer mode (top/right corner).
 5. Load extension from folder.
-6. Select `src` folder.
+6. Select `build` folder.
 7. Go to netflix, open video, bye bye side black bars!
 
 ## 📚 Documentation

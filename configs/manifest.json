@@ -2,14 +2,15 @@
 	"name": "Aspect Ratio 21:9",
     "description": "Fit the screen properly in fullscreen mode on monitor with 21:9 aspect ratio.",
     "manifest_version": 2,
-    "version": "0.0.2",
+    "version": "0.0.3",
     "author": "Patryk Rzucidło [@ptkdev] <support@ptkdev.io> (https://ptk.dev)",
+	"browser_action": {
+		"default_icon":"images/icon_128x128.png",
+		"default_title":"Aspect Ratio 21:9",
+		"default_popup":"popup.html"
+	},
     "options_page": "options.html",
-    "page_action": {
-        "default_icon": {
-            "128": "images/icon_128x128.png"
-        }
-    },
+    "default_locale": "en",
     "icons": {
         "128": "images/icon_128x128.png"
     },
@@ -23,7 +24,7 @@
                 "<all_urls>"
             ],
             "js": [
-                "video.js"
+                "js/popup.min.js"
             ],
             "all_frames": true
         }
