@@ -1,0 +1,25 @@
+html, body {
+	background-color: #edebf8;
+	color: #aa93bf;
+}
+
+#aspect-ratio-219 {
+	a {
+		color: #4e1653;
+	}
+
+	h1.title {
+		color: #895691;
+		margin-bottom: 0.8rem;
+	}
+
+	.tabs li a {
+		color: #aa93bf;
+		border-bottom-color: #aa93bf;
+	}
+
+	.tabs li.is-active a {
+		color: #895691;
+		border-bottom-color: #4e1653;
+	}
+}

@@ -1,0 +1,1 @@
+bulmaTagsinput.attach();

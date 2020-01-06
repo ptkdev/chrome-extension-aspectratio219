@@ -1,8 +1,64 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Go to Github</title>
-	<script async src="js/popup.min.js"></script>
+	<title lang="title">Aspect Ratio 21:9</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet">
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" rel="stylesheet">
+	<link href="css/full.min.css" rel="stylesheet" type="text/css" />
 </head>
-<body>test</body>
+<body id="aspect-ratio-219">
+	<div class="container">
+		<div class="is-centered"><img src="images/logo.png" alt="logo" /></div>
+		<div class="tabs is-centered">
+		  <ul>
+		    <li class="is-active"><a><span class="icon is-small"><i class="fas fa-user-cog" aria-hidden="true"></i></span> <span lang="settings">Settings</span></a></li>
+		    <li><a><span class="icon is-small"><i class="fas fa-hand-holding-usd" aria-hidden="true"></i></span> <span lang="donate">Donate</span></a></li>
+		    <li><a href="https://github.com/ptkdev/chrome-extension-aspectratio219/issues" target="_blank"><span class="icon is-small"><i class="far fa-life-ring" aria-hidden="true"></i></span> <span lang="donate">Support</span></a></li>
+		  </ul>
+		</div>
+		<div class="section">
+			<h1 class="title">Fix aspect ratio</h1>
+			<p title="videosite">Enable/disable the fit the screen on monitor with 21:9 aspect ratio on these websites:</p><br />
+			<div class="columns is-mobile">
+			  <div class="column">
+				<div class="field">
+				  <input id="switchExample" type="checkbox" name="switchExample" class="switch" checked="checked">
+				  <label for="switchExample">Switch example</label>
+				</div>
+			  </div>
+			  <div class="column">
+				<div class="field">
+				  <input id="switchExample" type="checkbox" name="switchExample" class="switch" checked="checked">
+				  <label for="switchExample">Switch example</label>
+				</div>
+			  </div>
+			  <div class="column">
+				<div class="field">
+				  <input id="switchExample" type="checkbox" name="switchExample" class="switch" checked="checked">
+				  <label for="switchExample">Switch example</label>
+				</div>
+			  </div>
+			  <div class="column">
+				<div class="field">
+				  <input id="switchExample" type="checkbox" name="switchExample" class="switch" checked="checked">
+				  <label for="switchExample">Switch example</label>
+				</div>
+			  </div>
+			</div>
+		</div>
+		<hr />
+		<div class="section">
+			<h1 class="title">Exprimental fix</h1>
+			<div class="columns">
+			  <div class="column">
+			  	<p title="domain">Add a domain (example: videofun.com) and the extension will try to fix video player with correct aspect ratio (<b>BETA</b>)</p><br />
+			    <input class="input" type="tags" placeholder="Add domain" value="">
+			  </div>
+			</div>
+		</div>
+		<hr />
+	</div>
+	<script src="js/popup.min.js"></script>
+</body>
 </html>

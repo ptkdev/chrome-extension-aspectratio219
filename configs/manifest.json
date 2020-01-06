@@ -5,14 +5,14 @@
     "version": "0.0.3",
     "author": "Patryk Rzucidło [@ptkdev] <support@ptkdev.io> (https://ptk.dev)",
 	"browser_action": {
-		"default_icon":"images/icon_128x128.png",
+		"default_icon":"images/icon_app_128x128.png",
 		"default_title":"Aspect Ratio 21:9",
 		"default_popup":"popup.html"
 	},
     "options_page": "options.html",
     "default_locale": "en",
     "icons": {
-        "128": "images/icon_128x128.png"
+        "128": "images/icon_app_128x128.png"
     },
     "permissions": [
         "activeTab",
@@ -24,7 +24,7 @@
                 "<all_urls>"
             ],
             "js": [
-                "js/popup.min.js"
+                "js/video.min.js"
             ],
             "all_frames": true
         }
