@@ -1,7 +1,7 @@
 # v0.0.4 (TBD)
 * Translations (Italian / English)
 
-# v0.0.3 (TBD)
+# v0.0.3 (January 08, 2019)
 * Developer mode: build system
 * Support: Crunchyroll
 * Support: Twitch
