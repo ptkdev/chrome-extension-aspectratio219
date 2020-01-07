@@ -6,12 +6,6 @@
 
 > Fit the screen properly in fullscreen mode on monitor with 21:9 aspect ratio. Work on Netflix, Youtube, PrimeVideo, VVVVID, etc...
 
-## 👔 Screenshot
-
-[![Aspect Ratio 21:9 - App](https://raw.githubusercontent.com/ptkdev/chrome-extension-aspectratio219/nightly/.github/assets/screenshot.png)](https://raw.githubusercontent.com/ptkdev/chrome-extension-aspectratio219/nightly/.github/assets/screenshot.png)
-
-[![Aspect Ratio 21:9 - Example](https://raw.githubusercontent.com/ptkdev/chrome-extension-aspectratio219/nightly/.github/assets/screenshot_example.png)](https://raw.githubusercontent.com/ptkdev/chrome-extension-aspectratio219/nightly/.github/assets/screenshot_example.png)
-
 ## 🎁 Support: Donate
 > This project is **free**, **open source** and I try to provide excellent **free support**. Why donate? I work on this project several hours in my spare time and try to keep it up to date and working. **THANK YOU!**
 
@@ -21,6 +15,7 @@
 
 ## 📎 Menu
 - 💡 [Features](#-features)
+- 👔 [Features](#-screenshot)
 - 🚀 [How to use](#-installation)
 - 🔨 [Developer mode](#-developer-mode)
 - 📚 [Documentation](#-documentation)
@@ -44,11 +39,11 @@
 * [✔️] Crunchyroll
 * [✔️] Twitch
 
-### 📝 TODO
-* [❌] ON / OFF Button
-* [❌] Translations
-* [❌] Customize Aspect ratio value (for 32:9 or 19:10 monitors)
-* [❌] Unsupported website (enable if html5 video player exist)
+## 👔 Screenshot
+
+[![Aspect Ratio 21:9 - App](https://raw.githubusercontent.com/ptkdev/chrome-extension-aspectratio219/nightly/.github/assets/screenshot.png)](https://raw.githubusercontent.com/ptkdev/chrome-extension-aspectratio219/nightly/.github/assets/screenshot.png)
+
+[![Aspect Ratio 21:9 - Example](https://raw.githubusercontent.com/ptkdev/chrome-extension-aspectratio219/nightly/.github/assets/screenshot_example.png)](https://raw.githubusercontent.com/ptkdev/chrome-extension-aspectratio219/nightly/.github/assets/screenshot_example.png)
 
 ## 🚀 Installation
 1. Install extension from [chrome store](https://chrome.google.com/webstore/detail/aspect-ratio-219/mgpbkhkpghgmihmcfbndejmkaibbnljo).
