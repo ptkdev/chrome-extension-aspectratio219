@@ -6,6 +6,12 @@
 
 > Fit the screen properly in fullscreen mode on monitor with 21:9 aspect ratio. Work on Netflix, Youtube, PrimeVideo, VVVVID, etc...
 
+## Screenshot
+
+[![Aspect Ratio 21:9 - App](https://raw.githubusercontent.com/ptkdev/chrome-extension-aspectratio219/nightly/.github/assets/screenshot.png)](https://raw.githubusercontent.com/ptkdev/chrome-extension-aspectratio219/nightly/.github/assets/screenshot.png)
+
+[![Aspect Ratio 21:9 - Example](https://raw.githubusercontent.com/ptkdev/chrome-extension-aspectratio219/nightly/.github/assets/screenshot_example.png)](https://raw.githubusercontent.com/ptkdev/chrome-extension-aspectratio219/nightly/.github/assets/screenshot_example.png)
+
 ## 🎁 Support: Donate
 > This project is **free**, **open source** and I try to provide excellent **free support**. Why donate? I work on this project several hours in my spare time and try to keep it up to date and working. **THANK YOU!**
 
