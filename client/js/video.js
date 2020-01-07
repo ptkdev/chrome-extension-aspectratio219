@@ -33,6 +33,7 @@ window.onload = function() {
 			};
 
 			let node = document.createElement("style");
+			node.setAttribute("id", "aspect_ratio_youtube");
 			node.innerHTML = `body video { transform: scale(${aspect_ratio_x},${aspect_ratio_y}) !important;}`;
 			document.body.appendChild(node);
 		}
@@ -54,6 +55,7 @@ window.onload = function() {
 			};
 
 			let node = document.createElement("style");
+			node.setAttribute("id", "aspect_ratio_netflix");
 			node.innerHTML = `body video { transform: scale(${aspect_ratio_x},${aspect_ratio_y}) !important; left: ${config.left} !important; top: ${config.top} !important;}`;
 			document.body.appendChild(node);
 		}
@@ -75,6 +77,7 @@ window.onload = function() {
 			};
 
 			let node = document.createElement("style");
+			node.setAttribute("id", "aspect_ratio_primevideo");
 			node.innerHTML = `body video { transform: scale(${aspect_ratio_x},${aspect_ratio_y}) !important; left: ${config.left} !important; top: ${config.top} !important;}`;
 			document.body.appendChild(node);
 		}
@@ -107,6 +110,7 @@ window.onload = function() {
 			setInterval(dailymotion_interval, 1000);
 
 			let node = document.createElement("style");
+			node.setAttribute("id", "aspect_ratio_dailymotion");
 			node.innerHTML = `body video { transform: scale(${aspect_ratio_x},${aspect_ratio_y}) !important; left: ${config.left} !important; top: ${config.top} !important;}`;
 			document.body.appendChild(node);
 		}
@@ -129,6 +133,7 @@ window.onload = function() {
 			};
 
 			let node = document.createElement("style");
+			node.setAttribute("id", "aspect_ratio_vimeo");
 			node.innerHTML = `body video { transform: scale(${aspect_ratio_x},${aspect_ratio_y}) !important; height: ${config.height} !important; left: ${config.left} !important; top: ${config.top} !important;}`;
 			document.body.appendChild(node);
 		}
@@ -163,6 +168,7 @@ window.onload = function() {
 			setInterval(vvvvid_interval, 1000);
 
 			let node = document.createElement("style");
+			node.setAttribute("id", "aspect_ratio_vvvvid");
 			node.innerHTML = `body video { transform: scale(${aspect_ratio_x},${aspect_ratio_y}) !important; left: ${config.left} !important; top: ${config.top} !important;}`;
 			document.body.appendChild(node);
 		}
@@ -186,6 +192,7 @@ window.onload = function() {
 			};
 
 			let node = document.createElement("style");
+			node.setAttribute("id", "aspect_ratio_crunchyroll");
 			node.innerHTML = `body video { transform: scale(${aspect_ratio_x},${aspect_ratio_y}) !important; left: ${config.left} !important; top: ${config.top} !important;}`;
 			document.body.appendChild(node);
 		}
@@ -208,6 +215,7 @@ window.onload = function() {
 			};
 
 			let node = document.createElement("style");
+			node.setAttribute("id", "aspect_ratio_twitch");
 			node.innerHTML = `body video { transform: scale(${aspect_ratio_x},${aspect_ratio_y}) !important; left: ${config.left} !important; top: ${config.top} !important;}`;
 			document.body.appendChild(node);
 		}
@@ -223,7 +231,7 @@ window.onload = function() {
 		*/
 		var domains_list = aspectratio_settings.domains.split(",");
 		for (let i = 0; i < domains_list.length; i++) {
-			if (window.location.href.includes(domains_list[i])) {
+			if (window.location.href.includes(domains_list[i]) && domains_list[i] != "") {
 				config = {
 					width: "100%",
 					height: "auto",
@@ -232,8 +240,10 @@ window.onload = function() {
 				};
 
 				let node = document.createElement("style");
+				node.setAttribute("id", `aspect_ratio_generic`);
 				node.innerHTML = `body video { transform: scale(${aspect_ratio_x},${aspect_ratio_y}) !important; left: ${config.left} !important; top: ${config.top} !important;}`;
 				document.body.appendChild(node);
+				break;
 			}
 		}
 	});
