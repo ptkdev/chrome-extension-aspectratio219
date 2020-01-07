@@ -15,7 +15,7 @@
 
 ## 📎 Menu
 - 💡 [Features](#-features)
-- 👔 [Features](#-screenshot)
+- 👔 [Screenshot](#-screenshot)
 - 🚀 [How to use](#-installation)
 - 🔨 [Developer mode](#-developer-mode)
 - 📚 [Documentation](#-documentation)
