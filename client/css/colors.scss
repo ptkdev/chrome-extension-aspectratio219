@@ -3,23 +3,110 @@ html, body {
 	color: #aa93bf;
 }
 
+body::-webkit-scrollbar {
+  width: 0.4em;
+}
+
+body::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: darkgrey;
+  outline: 1px solid slategrey;
+}
+
+$color-dark: #4e1653;
+$color-light: #895691;
+$color: #aa93bf;
+
 #aspect-ratio-219 {
+	*:focus {outline:none;}
+
 	a {
-		color: #4e1653;
+		color: $color-light;
+	}
+
+	a, a:active, a:focus {
+	   outline: none;
 	}
 
 	h1.title {
-		color: #895691;
+		color: $color-light;
 		margin-bottom: 0.8rem;
 	}
 
 	.tabs li a {
-		color: #aa93bf;
-		border-bottom-color: #aa93bf;
+		color: $color;
+		border-bottom-color: $color;
 	}
 
 	.tabs li.is-active a {
-		color: #895691;
-		border-bottom-color: #4e1653;
+		color: $color-light;
+		border-bottom-color: $color-dark;
+	}
+
+	.switch[type=checkbox]:checked+label::before, .switch[type=checkbox]:checked+label:before {
+		background: $color-dark
+	}
+
+	.tagsinput .tag.is-active {
+		background-color: $color-dark;
+	}
+
+	.input:active, .input:focus, .is-focused.input {
+		border-color: $color-light;
+		box-shadow: 0 0 0 0.125em rgba(170, 147, 191, 0.5);
+	}
+
+	.switch[type=checkbox]:focus+label::after, .switch[type=checkbox]:focus+label::before, .switch[type=checkbox]:focus+label:after, .switch[type=checkbox]:focus+label:before {
+		outline: none;
+	}
+
+	.patreon-backers-background {
+		background-color: rgba(249,103,83, 0.9);
+		border-radius: 25px;
+	    width: 95%;
+	    margin: 0 auto;
+	}
+
+	.patreon-backer {
+		border-radius: 25%;
+		background-color: #ffffff;
+		margin-right: 5px;
+		width: 55px;
+		height: 55px;
+		border: 1px solid rgba(249,103,83, 1);
+	}
+
+	.is-patreon {
+		background-color: rgba(249,103,83, 1);
+		color: #ffffff;
+	}
+
+	.is-kofi {
+		background-color: #29abe0;
+		color: #ffffff;
+	}
+
+	button:hover {
+	  cursor: pointer;
+	  animation: jelly 0.5s;
+	}
+
+	@keyframes jelly {
+	  0%,
+	  100% {
+	    transform: scale(1, 1);
+	  }
+	  25% {
+	    transform: scale(0.9, 1.1);
+	  }
+	  50% {
+	    transform: scale(1.1, 0.9);
+	  }
+	  75% {
+	    transform: scale(0.95, 1.05);
+	  }
 	}
 }

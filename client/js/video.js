@@ -12,7 +12,8 @@
  */
 window.onload = function() {
 	let config = {};
-	let aspect_ratio = "1.33"; // 1.33 = 21:9 | 1.48 = 32:9
+	let aspect_ratio_x = "1.33"; // 1.33 = 21:9 | 1.48 = 32:9
+	let aspect_ratio_y = "1";
 
 	/*
 	 *	__   __          _         _
@@ -29,7 +30,7 @@ window.onload = function() {
 		};
 
 		let node = document.createElement("style");
-		node.innerHTML = `body video { transform: scale(${aspect_ratio},1) !important;}`;
+		node.innerHTML = `body video { transform: scale(${aspect_ratio_x},${aspect_ratio_y}) !important;}`;
 		document.body.appendChild(node);
 	}
 
@@ -50,7 +51,7 @@ window.onload = function() {
 		};
 
 		let node = document.createElement("style");
-		node.innerHTML = `body video { transform: scale(${aspect_ratio},1) !important; left: ${config.left} !important; top: ${config.top} !important;}`;
+		node.innerHTML = `body video { transform: scale(${aspect_ratio_x},${aspect_ratio_y}) !important; left: ${config.left} !important; top: ${config.top} !important;}`;
 		document.body.appendChild(node);
 	}
 
@@ -71,7 +72,7 @@ window.onload = function() {
 		};
 
 		let node = document.createElement("style");
-		node.innerHTML = `body video { transform: scale(${aspect_ratio},1) !important; left: ${config.left} !important; top: ${config.top} !important;}`;
+		node.innerHTML = `body video { transform: scale(${aspect_ratio_x},${aspect_ratio_y}) !important; left: ${config.left} !important; top: ${config.top} !important;}`;
 		document.body.appendChild(node);
 	}
 
@@ -103,7 +104,7 @@ window.onload = function() {
 		setInterval(dailymotion_interval, 1000);
 
 		let node = document.createElement("style");
-		node.innerHTML = `body video { transform: scale(${aspect_ratio},1) !important; left: ${config.left} !important; top: ${config.top} !important;}`;
+		node.innerHTML = `body video { transform: scale(${aspect_ratio_x},${aspect_ratio_y}) !important; left: ${config.left} !important; top: ${config.top} !important;}`;
 		document.body.appendChild(node);
 	}
 
@@ -116,7 +117,7 @@ window.onload = function() {
 	 *	 \___/|_|_| |_| |_|\___|\___/
 	 */
 	if (window.location.href.includes("vimeo.com")) {
-		aspect_ratio = parseFloat(aspect_ratio) + 0.45;
+		aspect_ratio_x = parseFloat(aspect_ratio_x) + 0.45;
 		config = {
 			width: "100%",
 			height: "100%",
@@ -125,7 +126,7 @@ window.onload = function() {
 		};
 
 		let node = document.createElement("style");
-		node.innerHTML = `body video { transform: scale(${aspect_ratio},1) !important; height: ${config.height} !important; left: ${config.left} !important; top: ${config.top} !important;}`;
+		node.innerHTML = `body video { transform: scale(${aspect_ratio_x},${aspect_ratio_y}) !important; height: ${config.height} !important; left: ${config.left} !important; top: ${config.top} !important;}`;
 		document.body.appendChild(node);
 	}
 
@@ -159,7 +160,7 @@ window.onload = function() {
 		setInterval(vvvvid_interval, 1000);
 
 		let node = document.createElement("style");
-		node.innerHTML = `body video { transform: scale(${aspect_ratio},1) !important; left: ${config.left} !important; top: ${config.top} !important;}`;
+		node.innerHTML = `body video { transform: scale(${aspect_ratio_x},${aspect_ratio_y}) !important; left: ${config.left} !important; top: ${config.top} !important;}`;
 		document.body.appendChild(node);
 	}
 
@@ -182,7 +183,7 @@ window.onload = function() {
 		};
 
 		let node = document.createElement("style");
-		node.innerHTML = `body video { transform: scale(${aspect_ratio},1) !important; left: ${config.left} !important; top: ${config.top} !important;}`;
+		node.innerHTML = `body video { transform: scale(${aspect_ratio_x},${aspect_ratio_y}) !important; left: ${config.left} !important; top: ${config.top} !important;}`;
 		document.body.appendChild(node);
 	}
 
@@ -204,7 +205,7 @@ window.onload = function() {
 		};
 
 		let node = document.createElement("style");
-		node.innerHTML = `body video { transform: scale(${aspect_ratio},1) !important; left: ${config.left} !important; top: ${config.top} !important;}`;
+		node.innerHTML = `body video { transform: scale(${aspect_ratio_x},${aspect_ratio_y}) !important; left: ${config.left} !important; top: ${config.top} !important;}`;
 		document.body.appendChild(node);
 	}
 

@@ -23,5 +23,7 @@ var dom = {
 	tag: function(selector) {
 		return document.getElementsByTagName(selector);
 	},
-	all: document.querySelectorAll,
+	query: function(selector) {
+		return document.querySelectorAll(selector);
+	}
 };

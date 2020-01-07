@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<meta charset="UTF-8" />
 	<title lang="title">Aspect Ratio 21:9</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet">
@@ -14,50 +15,133 @@
 		  <ul>
 		    <li class="is-active"><a><span class="icon is-small"><i class="fas fa-user-cog" aria-hidden="true"></i></span> <span lang="settings">Settings</span></a></li>
 		    <li><a><span class="icon is-small"><i class="fas fa-hand-holding-usd" aria-hidden="true"></i></span> <span lang="donate">Donate</span></a></li>
-		    <li><a href="https://github.com/ptkdev/chrome-extension-aspectratio219/issues" target="_blank"><span class="icon is-small"><i class="far fa-life-ring" aria-hidden="true"></i></span> <span lang="donate">Support</span></a></li>
+		    <li><a><span class="icon is-small"><i class="far fa-life-ring" aria-hidden="true"></i></span> <span lang="donate">Support</span></a></li>
 		  </ul>
 		</div>
-		<div class="section">
-			<h1 class="title">Fix aspect ratio</h1>
+		<section class="section tab-content">
+			<h1 class="title">Aspect Ratio for 21:9</h1>
 			<p title="videosite">Enable/disable the fit the screen on monitor with 21:9 aspect ratio on these websites:</p><br />
+			<div class="columns is-mobile">
+			  <div class="column is-centered">
+				<div class="field is-centered">
+				  <input id="checkbox-youtube" type="checkbox" name="checkbox-youtube" class="switch" checked="checked">
+				  <label for="checkbox-youtube">Youtube</label>
+				</div>
+			  </div>
+			  <div class="column">
+				<div class="field">
+				  <input id="checkbox-netflix" type="checkbox" name="checkbox-netflix" class="switch" checked="checked">
+				  <label for="checkbox-netflix">Netflix</label>
+				</div>
+			  </div>
+			</div>
 			<div class="columns is-mobile">
 			  <div class="column">
 				<div class="field">
-				  <input id="switchExample" type="checkbox" name="switchExample" class="switch" checked="checked">
-				  <label for="switchExample">Switch example</label>
+				  <input id="checkbox-primevideo" type="checkbox" name="checkbox-primevideo" class="switch" checked="checked">
+				  <label for="checkbox-primevideo">Primevideo</label>
 				</div>
 			  </div>
 			  <div class="column">
 				<div class="field">
-				  <input id="switchExample" type="checkbox" name="switchExample" class="switch" checked="checked">
-				  <label for="switchExample">Switch example</label>
-				</div>
-			  </div>
-			  <div class="column">
-				<div class="field">
-				  <input id="switchExample" type="checkbox" name="switchExample" class="switch" checked="checked">
-				  <label for="switchExample">Switch example</label>
-				</div>
-			  </div>
-			  <div class="column">
-				<div class="field">
-				  <input id="switchExample" type="checkbox" name="switchExample" class="switch" checked="checked">
-				  <label for="switchExample">Switch example</label>
+				  <input id="checkbox-twitch" type="checkbox" name="checkbox-twitch" class="switch" checked="checked">
+				  <label for="checkbox-twitch">Twitch</label>
 				</div>
 			  </div>
 			</div>
-		</div>
-		<hr />
-		<div class="section">
-			<h1 class="title">Exprimental fix</h1>
+			<div class="columns is-mobile">
+			  <div class="column">
+				<div class="field">
+				  <input id="checkbox-dailymotion" type="checkbox" name="checkbox-dailymotion" class="switch" checked="checked">
+				  <label for="checkbox-dailymotion">Dailymotion</label>
+				</div>
+			  </div>
+			  <div class="column">
+				<div class="field">
+				  <input id="checkbox-vimeo" type="checkbox" name="checkbox-vimeo" class="switch" checked="checked">
+				  <label for="checkbox-vimeo">Vimeo</label>
+				</div>
+			  </div>
+			</div>
+			<div class="columns is-mobile">
+			  <div class="column">
+				<div class="field">
+				  <input id="checkbox-vvvvid" type="checkbox" name="checkbox-vvvvid" class="switch" checked="checked">
+				  <label for="checkbox-vvvvid">VVVVID</label>
+				</div>
+			  </div>
+			  <div class="column">
+				<div class="field">
+				  <input id="checkbox-crunchyroll" type="checkbox" name="checkbox-crunchyroll" class="switch" checked="checked">
+				  <label for="checkbox-crunchyroll">Crunchyroll</label>
+				</div>
+			  </div>
+			</div>
+
+			<hr />
+
+			<h1 class="title">Set ratio value</h1>
 			<div class="columns">
 			  <div class="column">
-			  	<p title="domain">Add a domain (example: videofun.com) and the extension will try to fix video player with correct aspect ratio (<b>BETA</b>)</p><br />
-			    <input class="input" type="tags" placeholder="Add domain" value="">
+			  	<p>You can overwrite default width/height scale of player if you use 32:9 or 19:10 monitors.</p><br />
+			  	<div class="columns is-mobile">
+				    <div class="column">Scale X (width): <input class="input is-small" type="text" placeholder="default: 1.33" value="1.33"></div>
+				    <div class="column">Scale Y (height): <input class="input is-small" type="text" placeholder="default: 1" value="1"></div>
+				</div>
+				<p>This extension overwrite css selector <b>transform:scale(x,y)</b>. Read css <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/transform-function/scale" target="_blank"><u>manual</u></a> if you want change this values.</p>
 			  </div>
 			</div>
-		</div>
-		<hr />
+
+			<hr />
+
+			<h1 class="title">Experimental</h1>
+			<div class="columns">
+			  <div class="column">
+			  	<p>Add a domain (example: videofun.com) and the extension will try to fix size of video player with correct aspect ratio (<b>BETA</b>)</p><br />
+			    <input class="input" type="tags" placeholder="Write domain and press enter" value="">
+			  </div>
+			</div>
+
+			<hr />
+		</section>
+		<section class="section tab-content">
+			<div class="columns">
+				<div class="row">
+					<div class="column padding-bottom-zero"><h1 class="title">Thanks You!</h1></div>
+					<div class="column">
+						<div class="columns is-mobile margin-bottom-zero padding-bottom-zero">
+							<div class="column buttons margin-bottom-zero">
+								<a href="https://github.com/sponsors/ptkdev" rel="nofollow external noopener noreferrer" target="_blank"><button class="button is-rounded is-small is-github is-centered"><i class="fab fa-github-alt"></i></span>&nbsp;&nbsp;<span>Sponsors</span></button></a>
+							</div>
+							<div class="column buttons margin-bottom-zero">
+								<a href="https://www.patreon.com/ptkdev" rel="nofollow external noopener noreferrer" target="_blank"><button class="button is-rounded is-small is-patreon is-centered"><span><i class="fab fa-patreon"></i>&nbsp;&nbsp;<span>Patreon</span></button></a>
+							</div>
+							<div class="column buttons margin-bottom-zero">
+								<a href="https://ko-fi.com/ptkdev" rel="nofollow external noopener noreferrer" target="_blank"><button class="button is-rounded is-small is-kofi is-centered"><span><i class="fas fa-coffee"></i>&nbsp;&nbsp;<span>Ko-Fi</span></button></a>
+							</div>
+						</div>
+						<p class="subtitle-patreon">Thanks to those people who support me!</p>
+					</div>
+					<div class="column patreon-backers-background"><span id="patreon-backers"></span></div>
+					<div class="column"><p>Do you want to appear here?<br /><br /><b>Donate</b> on Patreon, Github Sponsors or join Ko-Fi's TOP3 sponsors!</p></div>
+				</div>
+			</div>
+			<hr />
+		</section>
+		<section class="section tab-content">
+			<div class="columns">
+				<div class="column">
+					<div class="buttons is-centered">
+						<a href="https://github.com/ptkdev/chrome-extension-aspectratio219/issues" rel="nofollow external noopener noreferrer" target="_blank"><button class="button is-rounded is-medium is-danger is-centered"><span><i class="fas fa-bug"></i></span>&nbsp;&nbsp;<span>Report a Bug</span></button></a><br />
+					</div>
+				</div>
+				<div class="column">
+					<div class="buttons is-centered">
+						<a href="mailto:support@ptkdev.io?subject=AspectRatio ChromeExtension - Help" rel="nofollow external noopener noreferrer" target="_blank"><button class="button is-rounded is-medium is-warning is-centered"><span><i class="fas fa-envelope-open-text"></i></span>&nbsp;&nbsp;<span>E-mail</span></button></a>
+					</div>
+				</div>
+			</div>
+		</section>
 	</div>
 	<script src="js/popup.min.js"></script>
 </body>

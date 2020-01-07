@@ -8,4 +8,25 @@ html, body {
 	.section {
 		padding: 0rem 1rem;
 	}
+
+	.tabs:not(:last-child) {
+	  margin-bottom: 0;
+	}
+
+	.tab-content {
+	  padding: 1rem;
+	  display: none;
+	}
+
+	.tab-content.is-active {
+	  display: block;
+	}
+
+	.padding-bottom-zero {
+		padding-bottom: 0;
+	}
+
+	.margin-bottom-zero {
+		margin-bottom: 0;
+	}
 }
