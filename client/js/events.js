@@ -139,6 +139,20 @@ function settings_aspect() {
 	dom.query("#aspect_y")[0].addEventListener("change", function() {
 		chrome.storage.local.set({"aspect_y": this.value});
 	});
+
+	dom.query("#stretch")[0].addEventListener("click", function() {
+		dom.id("#aspect_x").value = "1.33";
+		dom.id("#aspect_y").value = "1";
+
+		chrome.storage.local.set({"aspect_x": "1.33"});
+		chrome.storage.local.set({"aspect_y": "1"});
+	});
+
+	dom.query("#crop")[0].addEventListener("click", function() {
+		dom.id("#aspect_y").value = dom.id("#aspect_x").value;
+
+		chrome.storage.local.set({"aspect_y": dom.id("#aspect_x").value});
+	});
 }
 
 function settings_domains() {

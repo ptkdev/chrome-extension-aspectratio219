@@ -1,4 +1,5 @@
 # v0.0.4 (TBD)
+* Feature: Crop
 * Translations (Italian / English)
 
 # v0.0.3 (January 08, 2019)

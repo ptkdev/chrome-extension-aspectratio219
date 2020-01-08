@@ -59,6 +59,14 @@ $color: #aa93bf;
 		box-shadow: 0 0 0 0.125em rgba(170, 147, 191, 0.5);
 	}
 
+	.button:focus {
+		border-color: $color-light;
+	}
+
+	.button:focus:not(:active) {
+		box-shadow: 0 0 0 0.125em rgba(170, 147, 191, 0.5);
+	}
+
 	.switch[type=checkbox]:focus+label::after, .switch[type=checkbox]:focus+label::before, .switch[type=checkbox]:focus+label:after, .switch[type=checkbox]:focus+label:before {
 		outline: none;
 	}
@@ -88,6 +96,12 @@ $color: #aa93bf;
 		background-color: #29abe0;
 		color: #ffffff;
 	}
+
+	.is-button {
+		background-color: #895691;
+		color: #ffffff;
+	}
+
 
 	button:hover {
 	  cursor: pointer;

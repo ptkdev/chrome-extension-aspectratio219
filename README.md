@@ -29,7 +29,7 @@
 ## 💡 Features
 * [✔️] Easy to use
 * [✔️] MIT License
-* [✔️] Fix aspect ratio on 21:9 monitor
+* [✔️] Fix aspect ratio on 21:9 monitor (stretch / crop)
 * [✔️] Customize Aspect ratio value (32:9 and 19:10 monitors)
 * [✔️] Add custom domain and try fix size of player
 * [✔️] ON / OFF buttons
