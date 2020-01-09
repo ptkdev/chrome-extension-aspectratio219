@@ -1,4 +1,4 @@
-# v1.0.0 (TBD)
+# v1.0.0 (January 09, 2019)
 * Fix: youtube on/off switch
 * Fix: twitch on/off switch
 * Translations (Italian / English / Polish)

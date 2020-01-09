@@ -37,13 +37,13 @@
         "message": "Obciąć"
     },
     "donate": {
-        "message": "Podarować"
+        "message": "Darowizna"
     },
     "settings_ratio_desc2": {
         "message": "To rozszerzenie zastępuje selektor css <b>transform:scale(x,y)</b>. Przeczytaj <a href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/transform-function/scale\" target=\"_blank\"><u>podręcznik</u></a> css jeśli chcesz zmienić te wartości."
     },
     "settings_ratio_desc1": {
-        "message": "Możesz zastąpić domyślną skalę szerokości/wysokości playera jeśli używasz monitorów 32: 9 lub 19:10."
+        "message": "Możesz zastąpić domyślną skalę szerokości/wysokości playera jeśli używasz monitorów 32:9 lub 19:10."
     },
     "donate_thanks": {
         "message": "Dzięki Ci!"
