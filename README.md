@@ -50,9 +50,10 @@
 
 ## 🚀 Installation
 1. Install extension from [chrome store](https://chrome.google.com/webstore/detail/aspect-ratio-219/mgpbkhkpghgmihmcfbndejmkaibbnljo).
-2. Go to netflix/youtube/primevideo/etc...
-3. Open video
-4. Bye bye side black bars!
+2. Open popup (click on icon of this extension)
+3. Enable netflix
+4. Go to netflix and open video
+5. Bye bye side black bars!
 
 ## 🔨 Developer Mode
 1. Download [stable](https://github.com/ptkdev/chrome-extension-aspectratio219/archive/master.zip), [beta](https://github.com/ptkdev/chrome-extension-aspectratio219/archive/beta.zip) or [nightly](https://github.com/ptkdev/chrome-extension-aspectratio219/archive/nightly.zip) and extract it.
