@@ -1,1 +1,66 @@
-{}
+{
+    "extName": {
+        "message": "Aspect Ratio 21:9",
+        "desceription": "Adatta lo schermo sui monitor con un rapporto di 21:9."
+    },
+    "settings_domains_title": {
+        "message": "Sperimentale"
+    },
+    "settings_ratio_scale_x": {
+        "message": "Scala X (larghezza):"
+    },
+    "settings": {
+        "message": "Impostazioni"
+    },
+    "settings_ratio_scale_y": {
+        "message": "Scala Y (altezza):"
+    },
+    "settings_switch_desc": {
+        "message": "Abilita/disabilita l'adattamento dello schermo per i monitor 21:9 su questi siti web:"
+    },
+    "donate_desc2": {
+        "message": "Vuoi apparire qui?<br /><br /><b>Dona</b> su Patreon, Github Sponsors o entra nella TOP3 sponsors di Ko-Fi's TOP3!"
+    },
+    "settings_ratio_title": {
+        "message": "Modifica scala"
+    },
+    "help": {
+        "message": "Aiuto"
+    },
+    "settings_domains_desc": {
+        "message": "Aggiungi un dominio (esempio: videofun.com) e l'estensione proverà a correggere le dimensioni del player video con le proporzioni corrette (<b>BETA</b>)"
+    },
+    "donate_desc1": {
+        "message": "Grazie alle persone che mi supportano!"
+    },
+    "settings_ratio_crop": {
+        "message": "Ritaglia"
+    },
+    "donate": {
+        "message": "Dona"
+    },
+    "settings_ratio_desc2": {
+        "message": "Questa estensione sovrascrive il selettore CSS <b>transform: scale(x, y)</b>. Leggi il <a href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/transform-function/scale\" target=\"_blank\"><u>manuale</u></a> css se vuoi cambiare questi valori."
+    },
+    "settings_ratio_desc1": {
+        "message": "È possibile sovrascrivere la scala larghezza/altezza predefinita del player video se si utilizzano monitor 32:9 o 19:10."
+    },
+    "donate_thanks": {
+        "message": "Grazie!"
+    },
+    "settings_switch_title": {
+        "message": "Aspect Ratio per 21:9"
+    },
+    "help_email": {
+        "message": "E-mail"
+    },
+    "settings_domains_placeholder": {
+        "message": "Scrivi e premi invio"
+    },
+    "help_bug_report": {
+        "message": "Segnala un problema"
+    },
+    "settings_ratio_stretch": {
+        "message": "Allarga"
+    }
+}

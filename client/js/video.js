@@ -206,7 +206,7 @@ window.onload = function() {
 		 *	  \_/ \_/\_/ |_|\__\___|_| |_|
 		 *
 		*/
-		if (window.location.href.includes("twitch.tv")) {
+		if (window.location.href.includes("twitch.tv") && aspectratio_settings.twitch === true) {
 			config = {
 				width: "100%",
 				height: "auto",

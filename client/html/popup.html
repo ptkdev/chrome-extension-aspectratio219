@@ -13,14 +13,14 @@
 		<div class="is-centered"><img src="images/logo.png" alt="logo" /></div>
 		<div class="tabs is-centered">
 		  <ul>
-		    <li class="is-active"><a><span class="icon is-small"><i class="fas fa-user-cog" aria-hidden="true"></i></span> <span lang="settings">Settings</span></a></li>
-		    <li><a><span class="icon is-small"><i class="fas fa-hand-holding-usd" aria-hidden="true"></i></span> <span lang="donate">Donate</span></a></li>
-		    <li><a><span class="icon is-small"><i class="far fa-life-ring" aria-hidden="true"></i></span> <span lang="donate">Support</span></a></li>
+		    <li class="is-active"><a><span class="icon is-small"><i class="fas fa-user-cog" aria-hidden="true"></i></span> <span lang="settings" lang-type="text">Settings</span></a></li>
+		    <li><a><span class="icon is-small"><i class="fas fa-hand-holding-usd" aria-hidden="true"></i></span> <span lang="donate" lang-type="text">Donate</span></a></li>
+		    <li><a><span class="icon is-small"><i class="far fa-life-ring" aria-hidden="true"></i></span> <span lang="help" lang-type="text">Help</span></a></li>
 		  </ul>
 		</div>
 		<section class="section tab-content">
-			<h1 class="title">Aspect Ratio for 21:9</h1>
-			<p>Enable/disable the fit the screen on monitor with 21:9 aspect ratio on these websites:</p><br />
+			<h1 class="title" lang="settings_switch_title" lang-type="text">Aspect Ratio for 21:9</h1>
+			<p lang="settings_switch_desc" lang-type="text">Enable/disable the fit the screen on monitor with 21:9 aspect ratio on these websites:</p><br />
 			<div class="columns is-mobile">
 			  <div class="column is-centered">
 				<div class="field is-centered">
@@ -80,31 +80,31 @@
 
 			<hr />
 
-			<h1 class="title">Set ratio value</h1>
+			<h1 class="title" lang="settings_ratio_title" lang-type="text">Set ratio value</h1>
 			<div class="columns">
 			  <div class="column">
-			  	<p>You can overwrite default width/height scale of player if you use 32:9 or 19:10 monitors.</p><br />
+			  	<p lang="settings_ratio_desc1" lang-type="text">You can overwrite default width/height scale of player if you use 32:9 or 19:10 monitors.</p><br />
 			  	<div class="columns is-mobile">
-				    <div class="column">Scale X (width): <input id="aspect_x" class="input is-small" type="number" step="0.01" placeholder="default: 1.33" value="1.33"></div>
-				    <div class="column">Scale Y (height): <input id="aspect_y" class="input is-small" type="number" step="0.01" placeholder="default: 1" value="1"></div>
+				    <div class="column"><span lang="settings_ratio_scale_x" lang-type="text">Scale X (width):</span> <input id="aspect_x" class="input is-small" type="number" step="0.01" placeholder="default: 1.33" value="1.33"></div>
+				    <div class="column"><span lang="settings_ratio_scale_y" lang-type="text">Scale Y (height):</span> <input id="aspect_y" class="input is-small" type="number" step="0.01" placeholder="default: 1" value="1"></div>
 				</div>
 				<div class="columns is-mobile margin-bottom-zero padding-bottom-zero">
 					<div class="column buttons margin-bottom-zero is-centered">
-						<a id="stretch"><button class="button is-rounded is-small is-button is-centered"><span>Stretch</span></button></a>
-						<a id="crop"><button class="button is-rounded is-small is-button is-centered"><span>Crop</span></button></a>
+						<a id="stretch"><button class="button is-rounded is-small is-button is-centered"><span lang="settings_ratio_stretch" lang-type="text">Stretch</span></button></a>
+						<a id="crop"><button class="button is-rounded is-small is-button is-centered"><span lang="settings_ratio_crop" lang-type="text">Crop</span></button></a>
 					</div>
 				</div>
-				<p>This extension overwrite css selector <b>transform:scale(x,y)</b>. Read css <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/transform-function/scale" target="_blank"><u>manual</u></a> if you want change this values.</p>
+				<p lang="settings_ratio_desc2" lang-type="text">This extension overwrite css selector <b>transform:scale(x,y)</b>. Read css <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/transform-function/scale" target="_blank"><u>manual</u></a> if you want change this values.</p>
 			  </div>
 			</div>
 
 			<hr />
 
-			<h1 class="title">Experimental</h1>
+			<h1 class="title" lang="settings_domains_title" lang-type="text">Experimental</h1>
 			<div class="columns">
 			  <div class="column">
-			  	<p>Add a domain (example: videofun.com) and the extension will try to fix size of video player with correct aspect ratio (<b>BETA</b>)</p><br />
-			    <input id="domains" class="input" type="tags" placeholder="Write domain and press enter">
+			  	<p lang="settings_domains_desc" lang-type="text">Add a domain (example: videofun.com) and the extension will try to fix size of video player with correct aspect ratio (<b>BETA</b>)</p><br />
+			    <input lang="settings_domains_placeholder" lang-type="placeholder" id="domains" class="input" type="tags" placeholder="Write domain and press enter">
 			  </div>
 			</div>
 
@@ -113,7 +113,7 @@
 		<section class="section tab-content">
 			<div class="columns">
 				<div class="row">
-					<div class="column padding-bottom-zero"><h1 class="title">Thanks You!</h1></div>
+					<div class="column padding-bottom-zero"><h1 class="title" lang="donate_thanks" lang-type="text">Thanks You!</h1></div>
 					<div class="column">
 						<div class="columns is-mobile margin-bottom-zero padding-bottom-zero">
 							<div class="column buttons margin-bottom-zero">
@@ -126,10 +126,10 @@
 								<a href="https://ko-fi.com/ptkdev" rel="nofollow external noopener noreferrer" target="_blank"><button class="button is-rounded is-small is-kofi is-centered"><span><i class="fas fa-coffee"></i>&nbsp;&nbsp;<span>Ko-Fi</span></button></a>
 							</div>
 						</div>
-						<p class="subtitle-patreon">Thanks to those people who support me!</p>
+						<p class="subtitle-patreon" lang="donate_desc1" lang-type="text">Thanks to those people who support me!</p>
 					</div>
 					<div class="column patreon-backers-background"><span id="patreon-backers"></span></div>
-					<div class="column"><p>Do you want to appear here?<br /><br /><b>Donate</b> on Patreon, Github Sponsors or join Ko-Fi's TOP3 sponsors!</p></div>
+					<div class="column"><p lang="donate_desc2" lang-type="text">Do you want to appear here?<br /><br /><b>Donate</b> on Patreon, Github Sponsors or join Ko-Fi's TOP3 sponsors!</p></div>
 				</div>
 			</div>
 			<hr />
@@ -138,12 +138,12 @@
 			<div class="columns">
 				<div class="column">
 					<div class="buttons is-centered">
-						<a href="https://github.com/ptkdev/chrome-extension-aspectratio219/issues" rel="nofollow external noopener noreferrer" target="_blank"><button class="button is-rounded is-medium is-danger is-centered"><span><i class="fas fa-bug"></i></span>&nbsp;&nbsp;<span>Report a Bug</span></button></a><br />
+						<a href="https://github.com/ptkdev/chrome-extension-aspectratio219/issues" rel="nofollow external noopener noreferrer" target="_blank"><button class="button is-rounded is-medium is-danger is-centered"><span><i class="fas fa-bug"></i></span>&nbsp;&nbsp;<span lang="help_bug_report" lang-type="text">Report a Bug</span></button></a><br />
 					</div>
 				</div>
 				<div class="column">
 					<div class="buttons is-centered">
-						<a href="mailto:support@ptkdev.io?subject=AspectRatio ChromeExtension - Help" rel="nofollow external noopener noreferrer" target="_blank"><button class="button is-rounded is-medium is-warning is-centered"><span><i class="fas fa-envelope-open-text"></i></span>&nbsp;&nbsp;<span>E-mail</span></button></a>
+						<a href="mailto:support@ptkdev.io?subject=AspectRatio ChromeExtension - Help" rel="nofollow external noopener noreferrer" target="_blank"><button class="button is-rounded is-medium is-warning is-centered"><span><i class="fas fa-envelope-open-text"></i></span>&nbsp;&nbsp;<span lang="help_email" lang-type="text">E-mail</span></button></a>
 					</div>
 				</div>
 			</div>

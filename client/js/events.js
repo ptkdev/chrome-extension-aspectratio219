@@ -81,7 +81,7 @@ function settings_init() {
 			data.netflix == true ? dom.id(`#checkbox-netflix`).setAttribute("checked", "checked") : dom.id(`#checkbox-netflix`).removeAttribute("checked");
 			data.primevideo == true ? dom.id(`#checkbox-primevideo`).setAttribute("checked", "checked") : dom.id(`#checkbox-primevideo`).removeAttribute("checked");
 			data.dailymotion == true ? dom.id(`#checkbox-dailymotion`).setAttribute("checked", "checked") : dom.id(`#checkbox-dailymotion`).removeAttribute("checked");
-			data.twitch == true ? dom.id(`#checkbox-twitch`).setAttribute("checked", "checked") : dom.id(`#checkbox-youtube`).removeAttribute("checked");
+			data.twitch == true ? dom.id(`#checkbox-twitch`).setAttribute("checked", "checked") : dom.id(`#checkbox-twitch`).removeAttribute("checked");
 			data.vimeo == true ? dom.id(`#checkbox-vimeo`).setAttribute("checked", "checked") : dom.id(`#checkbox-vimeo`).removeAttribute("checked");
 			data.vvvvid == true ? dom.id(`#checkbox-vvvvid`).setAttribute("checked", "checked") : dom.id(`#checkbox-vvvvid`).removeAttribute("checked");
 			data.crunchyroll == true ? dom.id(`#checkbox-crunchyroll`).setAttribute("checked", "checked") : dom.id(`#checkbox-crunchyroll`).removeAttribute("checked");
@@ -161,6 +161,16 @@ function settings_domains() {
 	});
 }
 
+function translations() {
+	dom.query("[lang-type='text']").forEach(function(element) {
+		element.innerHTML = chrome.i18n.getMessage(element.getAttribute("lang"));
+	});
+
+	dom.query("[lang-type='placeholder']").forEach(function(element) {
+		element.setAttribute("placeholder", chrome.i18n.getMessage("settings_domains_placeholder"));
+	});
+}
+
 document.addEventListener("DOMContentLoaded", () => {
 	tabs();
 	patreon();
@@ -168,4 +178,5 @@ document.addEventListener("DOMContentLoaded", () => {
 	settings_checkbox();
 	settings_aspect();
 	settings_domains();
+	translations();
 });
