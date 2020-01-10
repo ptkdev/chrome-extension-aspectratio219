@@ -1,7 +1,7 @@
 {
     "extName": {
         "message": "Aspect Ratio 21:9",
-        "desceription": "Adatta lo schermo sui monitor con un rapporto di 21:9."
+        "description": "Adatta lo schermo sui monitor con un rapporto di 21:9."
     },
     "settings_domains_title": {
         "message": "Sperimentale"

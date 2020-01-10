@@ -1,7 +1,7 @@
 {
 	"extName": {
         "message": "Aspect Ratio 21:9",
-        "desceription": "Prawidłowo dopasuj ekran do trybu pełnoekranowego na monitorze 21:9."
+        "description": "Prawidłowo dopasuj ekran do trybu pełnoekranowego na monitorze 21:9."
     },
     "settings_domains_title": {
         "message": "Eksperymentalny"

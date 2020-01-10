@@ -1,7 +1,7 @@
 {
 	"extName": {
         "message": "Aspect Ratio 21:9",
-        "desceription": "Fit the screen properly in fullscreen mode on monitor with 21:9 aspect ratio."
+        "description": "Fit the screen properly in fullscreen mode on monitor with 21:9 aspect ratio."
     },
     "settings_domains_title": {
         "message": "Experimental"
