@@ -26,7 +26,7 @@
 				"returns": "return"
 			}
 		},
-		"snakecasejs/whitelist": ["childList", "bulmaTagsinput", "getMessage"]
+		"snakecasejs/whitelist": ["childList", "bulmaTagsinput", "getMessage", "webkitIsFullScreen"]
 	},
 	"rules": {
 		"no-multi-spaces": ["error", { "ignoreEOLComments": true, "exceptions": { "VariableDeclarator": true } }],

@@ -34,7 +34,7 @@
         "message": "Grazie alle persone che mi supportano!"
     },
     "settings_ratio_crop": {
-        "message": "Ritaglia"
+        "message": "Ritaglia/Ingrandisci"
     },
     "donate": {
         "message": "Dona"
@@ -62,5 +62,8 @@
     },
     "settings_ratio_stretch": {
         "message": "Allarga"
+    },
+    "settings_fullscreen": {
+        "message": "Attiva solo in modalità fullscreen"
     }
 }

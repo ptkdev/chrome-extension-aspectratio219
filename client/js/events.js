@@ -64,9 +64,10 @@ function patreon() {
 }
 
 function settings_init() {
-	let checkboxs = ["youtube", "netflix", "primevideo", "dailymotion", "twitch", "vimeo", "vvvvid", "crunchyroll"];
+	let checkboxs = ["fullscreen", "youtube", "netflix", "primevideo", "dailymotion", "twitch", "vimeo", "vvvvid", "crunchyroll"];
 
 	chrome.storage.local.get(checkboxs, function(data) {
+		data.fullscreen == null ? chrome.storage.local.set({"fullscreen": true}) : null;
 		data.youtube == null ? chrome.storage.local.set({"youtube": false}) : null;
 		data.netflix == null ? chrome.storage.local.set({"netflix": false}) : null;
 		data.primevideo == null ? chrome.storage.local.set({"primevideo": false}) : null;
@@ -77,6 +78,7 @@ function settings_init() {
 		data.crunchyroll == null ? chrome.storage.local.set({"crunchyroll": false}) : null;
 
 		chrome.storage.local.get(checkboxs, function(data) {
+			data.fullscreen == true ? dom.id(`#checkbox-fullscreen`).setAttribute("checked", "checked") : dom.id(`#checkbox-fullscreen`).removeAttribute("checked");
 			data.youtube == true ? dom.id(`#checkbox-youtube`).setAttribute("checked", "checked") : dom.id(`#checkbox-youtube`).removeAttribute("checked");
 			data.netflix == true ? dom.id(`#checkbox-netflix`).setAttribute("checked", "checked") : dom.id(`#checkbox-netflix`).removeAttribute("checked");
 			data.primevideo == true ? dom.id(`#checkbox-primevideo`).setAttribute("checked", "checked") : dom.id(`#checkbox-primevideo`).removeAttribute("checked");

@@ -34,7 +34,7 @@
         "message": "Thanks to the people who support me!"
     },
     "settings_ratio_crop": {
-        "message": "Crop"
+        "message": "Crop/Zoom"
     },
     "donate": {
         "message": "Donate"
@@ -62,5 +62,8 @@
     },
     "settings_ratio_stretch": {
         "message": "Stretch"
+    },
+    "settings_fullscreen": {
+        "message": "Active only in fullscreen mode"
     }
 }

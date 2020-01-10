@@ -1,7 +1,7 @@
 {
 	"name": "__MSG_extName__",
     "manifest_version": 2,
-    "version": "1.0.0",
+    "version": "1.1.0",
     "author": "Patryk Rzucidło [@ptkdev] <support@ptkdev.io> (https://ptk.dev)",
 	"browser_action": {
 		"default_icon":"images/icon_app_128x128.png",
