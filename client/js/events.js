@@ -138,7 +138,15 @@ function settings_aspect() {
 		chrome.storage.local.set({"aspect_x": this.value});
 	});
 
+	dom.query("#aspect_x")[0].addEventListener("keyup", function() {
+		chrome.storage.local.set({"aspect_x": this.value});
+	});
+
 	dom.query("#aspect_y")[0].addEventListener("change", function() {
+		chrome.storage.local.set({"aspect_y": this.value});
+	});
+
+	dom.query("#aspect_y")[0].addEventListener("keyup", function() {
 		chrome.storage.local.set({"aspect_y": this.value});
 	});
 
