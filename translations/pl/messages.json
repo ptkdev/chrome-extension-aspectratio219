@@ -1,69 +1,71 @@
 {
 	"extName": {
-        "message": "Aspect Ratio 21:9",
-        "description": "Prawidłowo dopasuj ekran do trybu pełnoekranowego na monitorze 21:9."
-    },
-    "settings_domains_title": {
-        "message": "Eksperymentalny"
-    },
-    "settings_ratio_scale_x": {
-        "message": "Skala X (szerokość):"
-    },
-    "settings": {
-        "message": "Ustawienia"
-    },
-    "settings_ratio_scale_y": {
-        "message": "Skala Y (wysokość):"
-    },
-    "settings_switch_desc": {
-        "message": "Włącz/wyłącz dopasowanie ekranu na monitorze 21:9 w tych stronach:"
-    },
-    "donate_desc2": {
-        "message": "Chcesz się tu pojawić?<br /><br /><b>Podarować</b> na Patreonie, Github Sponsors lub Ko-Fi!"
-    },
-    "settings_ratio_title": {
-        "message": "Ustaw wartość współczynnika"
-    },
-    "help": {
-        "message": "Pomoc"
-    },
-    "settings_domains_desc": {
-        "message": "Dodaj domenę (przykład: videofun.com), a rozszerzenie spróbuje naprawić rozmiar playera wideo z poprawnym współczynnikiem proporcji (<b>BETA</b>)"
-    },
-    "donate_desc1": {
-        "message": "Dzięki ludziom, którzy mnie wspierają!"
-    },
-    "settings_ratio_crop": {
-        "message": "Obciąć/Powiększyć"
-    },
-    "donate": {
-        "message": "Darowizna"
-    },
-    "settings_ratio_desc2": {
-        "message": "To rozszerzenie zastępuje selektor css <b>transform:scale(x,y)</b>. Przeczytaj <a href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/transform-function/scale\" target=\"_blank\"><u>podręcznik</u></a> css jeśli chcesz zmienić te wartości."
-    },
-    "settings_ratio_desc1": {
-        "message": "Możesz zastąpić domyślną skalę szerokości/wysokości playera jeśli używasz monitorów 32:9 lub 19:10."
-    },
-    "donate_thanks": {
-        "message": "Dzięki Ci!"
-    },
-    "settings_switch_title": {
-        "message": "Aspect Ratio do 21:9"
-    },
-    "help_email": {
-        "message": "E-maila"
-    },
-    "settings_domains_placeholder": {
-        "message": "Napisz domenę"
-    },
-    "help_bug_report": {
-        "message": "Zgłoś błąd"
-    },
-    "settings_ratio_stretch": {
-        "message": "Rozciągać"
-    },
-    "settings_fullscreen": {
-        "message": "Aktywuj tylko w trybie pełnoekranowym"
-    }
+		"message": "Aspect Ratio 21:9"
+	},
+	"description": {
+		"message": "Prawidłowo dopasuj ekran do trybu pełnoekranowego na monitorze 21:9."
+	},
+	"settings_domains_title": {
+		"message": "Eksperymentalny"
+	},
+	"settings_ratio_scale_x": {
+		"message": "Skala X (szerokość):"
+	},
+	"settings": {
+		"message": "Ustawienia"
+	},
+	"settings_ratio_scale_y": {
+		"message": "Skala Y (wysokość):"
+	},
+	"settings_switch_desc": {
+		"message": "Włącz/wyłącz dopasowanie ekranu na monitorze 21:9 w tych stronach:"
+	},
+	"donate_desc2": {
+		"message": "Chcesz się tu pojawić?<br /><br /><b>Podarować</b> na Patreonie, Github Sponsors lub Ko-Fi!"
+	},
+	"settings_ratio_title": {
+		"message": "Ustaw wartość współczynnika"
+	},
+	"help": {
+		"message": "Pomoc"
+	},
+	"settings_domains_desc": {
+		"message": "Dodaj domenę (przykład: videofun.com), a rozszerzenie spróbuje naprawić rozmiar playera wideo z poprawnym współczynnikiem proporcji (<b>BETA</b>)"
+	},
+	"donate_desc1": {
+		"message": "Dzięki ludziom, którzy mnie wspierają!"
+	},
+	"settings_ratio_crop": {
+		"message": "Obciąć/Powiększyć"
+	},
+	"donate": {
+		"message": "Darowizna"
+	},
+	"settings_ratio_desc2": {
+		"message": "To rozszerzenie zastępuje selektor css <b>transform:scale(x,y)</b>. Przeczytaj <a href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/transform-function/scale\" target=\"_blank\"><u>podręcznik</u></a> css jeśli chcesz zmienić te wartości."
+	},
+	"settings_ratio_desc1": {
+		"message": "Możesz zastąpić domyślną skalę szerokości/wysokości playera jeśli używasz monitorów 32:9 lub 19:10."
+	},
+	"donate_thanks": {
+		"message": "Dzięki Ci!"
+	},
+	"settings_switch_title": {
+		"message": "Aspect Ratio do 21:9"
+	},
+	"help_email": {
+		"message": "E-maila"
+	},
+	"settings_domains_placeholder": {
+		"message": "Napisz domenę"
+	},
+	"help_bug_report": {
+		"message": "Zgłoś błąd"
+	},
+	"settings_ratio_stretch": {
+		"message": "Rozciągać"
+	},
+	"settings_fullscreen": {
+		"message": "Aktywuj tylko w trybie pełnoekranowym"
+	}
 }

@@ -1,0 +1,71 @@
+{
+	"extName": {
+		"message": "Aspect Ratio 21:9"
+	},
+	"description": {
+		"message": "Ajusta la pantalla en los monitores con una proporción de 21:9."
+	},
+	"settings_domains_title": {
+		"message": "Experimental"
+	},
+	"settings_ratio_scale_x": {
+		"message": "Escala X (anchura):"
+	},
+	"settings": {
+		"message": "Preferencias"
+	},
+	"settings_ratio_scale_y": {
+		"message": "Escala Y (anchura):"
+	},
+	"settings_switch_desc": {
+		"message": "Activa/Desactiva la adaptación de pantalla para monitores 21:9 en estos sitios web:"
+	},
+	"donate_desc2": {
+		"message": "¿Quieres aparecer aquí?<br /><br /><b>Dona</b> en Patreon, Github Sponsors o entra en la TOP3 patrocinador de Ko-Fi's TOP3!"
+	},
+	"settings_ratio_title": {
+		"message": "Cambio escala"
+	},
+	"help": {
+		"message": "Ayuda"
+	},
+	"settings_domains_desc": {
+		"message": "Añada un dominio (por ejemplo: videofun.com) y la extensión intentará corregir el tamaño del reproductor de video con las proporciones correctas (<b>BETA</b>)"
+	},
+	"donate_desc1": {
+		"message": "Gracias a queines me apoyan!"
+	},
+	"settings_ratio_crop": {
+		"message": "Recorta/Amplía"
+	},
+	"donate": {
+		"message": "Dona"
+	},
+	"settings_ratio_desc2": {
+		"message": " Esta extensión sobrescribe el selector CSS <b>transform: scale(x, y)</b>. Lee el <a href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/transform-function/scale\" target=\"_blank\"><u>manual</u></a> css si quiere cambiar estos valores."
+	},
+	"settings_ratio_desc1": {
+		"message": "Puede sobrescrivir la escala de ancho/altura predeterminada del reproductor de video si está usando monitores 32:9 o 19:10."
+	},
+	"donate_thanks": {
+		"message": "Gracias!"
+	},
+	"settings_switch_title": {
+		"message": "Aspect Ratio por 21:9"
+	},
+	"help_email": {
+		"message": "E-mail"
+	},
+	"settings_domains_placeholder": {
+		"message": "Escribe y pulsa intro"
+	},
+	"help_bug_report": {
+		"message": "Reportar problema"
+	},
+	"settings_ratio_stretch": {
+		"message": " Amplía"
+	},
+	"settings_fullscreen": {
+		"message": " Activar solo en modo de pantalla completa"
+	}
+}

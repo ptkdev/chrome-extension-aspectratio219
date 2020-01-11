@@ -1,69 +1,71 @@
 {
 	"extName": {
-        "message": "Aspect Ratio 21:9",
-        "description": "Fit the screen properly in fullscreen mode on monitor with 21:9 aspect ratio."
-    },
-    "settings_domains_title": {
-        "message": "Experimental"
-    },
-    "settings_ratio_scale_x": {
-        "message": "Scale X (width):"
-    },
-    "settings": {
-        "message": "Settings"
-    },
-    "settings_ratio_scale_y": {
-        "message": "Scale Y (height):"
-    },
-    "settings_switch_desc": {
-        "message": "Enable/disable the fit the screen on monitor with 21:9 aspect ratio on these websites:"
-    },
-    "donate_desc2": {
-        "message": "Do you want to appear here?<br /><br /><b>Donate</b> on Patreon, Github Sponsors or join Ko-Fi's TOP3 sponsors!"
-    },
-    "settings_ratio_title": {
-        "message": "Set ratio value"
-    },
-    "help": {
-        "message": "Help"
-    },
-    "settings_domains_desc": {
-        "message": "Add a domain (example: videofun.com) and the extension will try to fix size of video player with correct aspect ratio (<b>BETA</b>)"
-    },
-    "donate_desc1": {
-        "message": "Thanks to the people who support me!"
-    },
-    "settings_ratio_crop": {
-        "message": "Crop/Zoom"
-    },
-    "donate": {
-        "message": "Donate"
-    },
-    "settings_ratio_desc2": {
-        "message": "This extension overwrite css selector <b>transform:scale(x,y)</b>. Read css <a href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/transform-function/scale\" target=\"_blank\"><u>manual</u></a> if you want change this values."
-    },
-    "settings_ratio_desc1": {
-        "message": "You can overwrite default width/height scale of player if you use 32:9 or 19:10 monitors."
-    },
-    "donate_thanks": {
-        "message": "Thanks You!"
-    },
-    "settings_switch_title": {
-        "message": "Aspect Ratio for 21:9"
-    },
-    "help_email": {
-        "message": "E-mail"
-    },
-    "settings_domains_placeholder": {
-        "message": "Write domain and press enter"
-    },
-    "help_bug_report": {
-        "message": "Report a Bug"
-    },
-    "settings_ratio_stretch": {
-        "message": "Stretch"
-    },
-    "settings_fullscreen": {
-        "message": "Active only in fullscreen mode"
-    }
+		"message": "Aspect Ratio 21:9"
+	},
+	"description": {
+		"message": "Fit the screen properly in fullscreen mode on monitor with 21:9 aspect ratio."
+	},
+	"settings_domains_title": {
+		"message": "Experimental"
+	},
+	"settings_ratio_scale_x": {
+		"message": "Scale X (width):"
+	},
+	"settings": {
+		"message": "Settings"
+	},
+	"settings_ratio_scale_y": {
+		"message": "Scale Y (height):"
+	},
+	"settings_switch_desc": {
+		"message": "Enable/disable the fit the screen on monitor with 21:9 aspect ratio on these websites:"
+	},
+	"donate_desc2": {
+		"message": "Do you want to appear here?<br /><br /><b>Donate</b> on Patreon, Github Sponsors or join Ko-Fi's TOP3 sponsors!"
+	},
+	"settings_ratio_title": {
+		"message": "Set ratio value"
+	},
+	"help": {
+		"message": "Help"
+	},
+	"settings_domains_desc": {
+		"message": "Add a domain (example: videofun.com) and the extension will try to fix size of video player with correct aspect ratio (<b>BETA</b>)"
+	},
+	"donate_desc1": {
+		"message": "Thanks to the people who support me!"
+	},
+	"settings_ratio_crop": {
+		"message": "Crop/Zoom"
+	},
+	"donate": {
+		"message": "Donate"
+	},
+	"settings_ratio_desc2": {
+		"message": "This extension overwrite css selector <b>transform:scale(x,y)</b>. Read css <a href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/transform-function/scale\" target=\"_blank\"><u>manual</u></a> if you want change this values."
+	},
+	"settings_ratio_desc1": {
+		"message": "You can overwrite default width/height scale of player if you use 32:9 or 19:10 monitors."
+	},
+	"donate_thanks": {
+		"message": "Thanks You!"
+	},
+	"settings_switch_title": {
+		"message": "Aspect Ratio for 21:9"
+	},
+	"help_email": {
+		"message": "E-mail"
+	},
+	"settings_domains_placeholder": {
+		"message": "Write domain and press enter"
+	},
+	"help_bug_report": {
+		"message": "Report a Bug"
+	},
+	"settings_ratio_stretch": {
+		"message": "Stretch"
+	},
+	"settings_fullscreen": {
+		"message": "Active only in fullscreen mode"
+	}
 }

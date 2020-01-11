@@ -13,7 +13,16 @@
 			"avatar_url": "https://avatars1.githubusercontent.com/u/442844?v=4",
 			"profile": "https://ptk.dev",
 			"contributions": [
-				"code"
+				"code", "translation"
+			]
+		},
+		{
+			"login": "angylosi",
+			"name": "Angelica Losi",
+			"avatar_url": "https://avatars1.githubusercontent.com/u/35865603?v=4",
+			"profile": "https://www.smodatamente.it",
+			"contributions": [
+				"translation"
 			]
 		}
 	],
