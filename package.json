@@ -46,7 +46,15 @@
 		"chrome",
 		"chrome-extension",
 		"netflix",
-		"youtube"
+		"youtube",
+		"vimeo",
+		"ultrawide",
+		"ultra wide",
+		"player",
+		"video",
+		"dailymotion",
+		"crunchyroll",
+		"twitch"
 	],
 	"engines": {
 		"node": ">=10.0.0"
