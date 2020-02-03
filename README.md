@@ -1,6 +1,8 @@
 [![Chrome Extension: Aspect Ratio 21:9](https://raw.githubusercontent.com/ptkdev/chrome-extension-aspectratio219/nightly/.github/assets/aspectratio219.png)](https://chrome.google.com/webstore/detail/aspect-ratio-219/mgpbkhkpghgmihmcfbndejmkaibbnljo)
 
-# 🖥 Chrome Extension: Aspect Ratio 21:9
+[![Chrome Extension: Aspect Ratio 21:9](https://raw.githubusercontent.com/ptkdev/chrome-extension-aspectratio219/nightly/.github/assets/badge-availableon-chrome.png)](https://chrome.google.com/webstore/detail/aspect-ratio-219/mgpbkhkpghgmihmcfbndejmkaibbnljo) [![Edge Extension: Aspect Ratio 21:9](https://raw.githubusercontent.com/ptkdev/chrome-extension-aspectratio219/nightly/.github/assets/badge-availableon-edge.png)](https://www.microsoft.com/p/aspect-ratio-219/0rdckbbsk7kr)
+
+# 🖥 Chrome &amp; Edge Extension: Aspect Ratio 21:9
 
 [![](https://img.shields.io/badge/version-v1.2.1-lightgrey.svg)](https://github.com/ptkdev/chrome-extension-aspectratio219/releases) [![](https://img.shields.io/badge/license-MIT-brightgreen.svg)](https://github.com/ptkdev/chrome-extension-aspectratio219/blob/nightly/LICENSE.md) [![](https://img.shields.io/badge/ES-9-F7DF1E.svg)](https://wikipedia.org/wiki/ECMAScript) [![](https://snyk.io/test/github/ptkdev/chrome-extension-aspectratio219/badge.svg)](https://snyk.io/test/github/ptkdev/chrome-extension-aspectratio219)
 
@@ -22,9 +24,9 @@
 - ❤️ [Contributing](#-contributing)
 - 🐛 [Known Bugs](https://github.com/ptkdev/chrome-extension-aspectratio219/issues?q=is%3Aopen+is%3Aissue+label%3Abug)
 - 🍻 Community:
-  - 🐔 [Discord](http://discord.ptkdev.io)
-  - 🐓 [Slack](http://slack.ptkdev.io)
-  - 🐤 [Twitter](http://twitter.ptkdev.io)
+  - [<img src="https://raw.githubusercontent.com/ptkdev/chrome-extension-aspectratio219/nightly/.github/assets/social_discord.png" height="18px"> Discord](http://discord.ptkdev.io)
+  - [<img src="https://raw.githubusercontent.com/ptkdev/chrome-extension-aspectratio219/nightly/.github/assets/social_slack.png" height="18px"> Slack](http://slack.ptkdev.io)
+  - [<img src="https://raw.githubusercontent.com/ptkdev/chrome-extension-aspectratio219/nightly/.github/assets/social_twitter.png" height="18px"> Twitter](http://twitter.ptkdev.io)
 
 ## 💡 Features
 * [✔️] Easy to use

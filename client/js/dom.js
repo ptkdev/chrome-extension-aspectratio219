@@ -1,3 +1,4 @@
+/* eslint no-unused-vars: "off" */
 /**
  * dom
  * =====================
@@ -8,8 +9,6 @@
  * @license: This code and contributions have 'MIT License'
  *
  */
-
-/* eslint no-unused-vars: "off" */
 var dom = {
 	id: function(selector) {
 		return document.getElementById(selector.replace("#", ""));
