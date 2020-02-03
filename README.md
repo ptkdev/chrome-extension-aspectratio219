@@ -25,7 +25,6 @@
 - 🐛 [Known Bugs](https://github.com/ptkdev/chrome-extension-aspectratio219/issues?q=is%3Aopen+is%3Aissue+label%3Abug)
 - 🍻 Community:
   - [<img src="https://raw.githubusercontent.com/ptkdev/chrome-extension-aspectratio219/nightly/.github/assets/social_discord.png" height="18px"> Discord](http://discord.ptkdev.io)
-  - [<img src="https://raw.githubusercontent.com/ptkdev/chrome-extension-aspectratio219/nightly/.github/assets/social_slack.png" height="18px"> Slack](http://slack.ptkdev.io)
   - [<img src="https://raw.githubusercontent.com/ptkdev/chrome-extension-aspectratio219/nightly/.github/assets/social_twitter.png" height="18px"> Twitter](http://twitter.ptkdev.io)
 
 ## 💡 Features
