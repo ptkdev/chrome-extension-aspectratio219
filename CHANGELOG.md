@@ -1,4 +1,5 @@
 # v1.2.1 (January 12, 2020)
+* AVAILABLE ON [MICROSOFT EDGE](https://microsoftedge.microsoft.com/addons/detail/llplepgpoalnkeiofcdohpalgpccifbo)!
 * Fix: keyup issue on aspect ratio custom values
 
 [![](https://img.shields.io/badge/donate-paypal-005EA6.svg)](https://www.paypal.me/ptkdev) [![](https://img.shields.io/badge/donate-patreon-F87668.svg)](https://www.patreon.com/ptkdev) [![](https://img.shields.io/badge/donate-sponsors-ea4aaa.svg)](https://github.com/sponsors/ptkdev/)  [![](https://img.shields.io/badge/donate-ko--fi-29abe0.svg)](https://ko-fi.com/ptkdev)
