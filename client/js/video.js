@@ -201,6 +201,14 @@ function aspect_ratio(aspectratio_settings) {
 		node.setAttribute("class", `aspect_ratio`);
 		node.innerHTML = `body video { transform: scale(${aspect_ratio_x},${aspect_ratio_y}) !important; left: ${config.left} !important; top: ${config.top} !important;}`;
 		document.body.appendChild(node);
+		setTimeout(() => {
+			try {
+				document.getElementById("vilos-player").webkitRequestFullScreen();
+			} catch (e) {
+				// nothing
+			}
+		}, 3000);
+
 	}
 
 	/*
@@ -258,7 +266,10 @@ function aspect_ratio(aspectratio_settings) {
 
 window.onload = function() {
 	chrome.storage.local.get(["fullscreen", "youtube", "netflix", "primevideo", "dailymotion", "twitch", "vimeo", "vvvvid", "crunchyroll", "aspect_x", "aspect_y", "domains"], function(aspectratio_settings) {
-		if (aspectratio_settings.fullscreen === true) {
+		// crunchyroll patch: why? the next episode not go to full screen mode without this fix
+		if (aspectratio_settings.fullscreen === true && window.location.href.includes("crunchyroll.com") && aspectratio_settings.crunchyroll === true) {
+			aspect_ratio(aspectratio_settings);
+		} else if (aspectratio_settings.fullscreen === true) {
 			document.addEventListener("fullscreenchange", () => {
 				if (document.webkitIsFullScreen) {
 					aspect_ratio(aspectratio_settings);

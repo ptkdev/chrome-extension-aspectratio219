@@ -1,8 +1,12 @@
+# v1.3.0 (February 21, 2020)
+* Crunchyroll patch: the next episode not go to full screen mode. NOTE: Crunchyroll player go to fullscreen mode after window load, without interaction.
+
+[![](https://img.shields.io/badge/donate-paypal-005EA6.svg)](https://www.paypal.me/ptkdev) [![](https://img.shields.io/badge/donate-patreon-F87668.svg)](https://www.patreon.com/ptkdev) [![](https://img.shields.io/badge/donate-sponsors-ea4aaa.svg)](https://github.com/sponsors/ptkdev/)  [![](https://img.shields.io/badge/donate-ko--fi-29abe0.svg)](https://ko-fi.com/ptkdev)
+
+
 # v1.2.1 (January 12, 2020)
 * AVAILABLE ON [MICROSOFT EDGE](https://microsoftedge.microsoft.com/addons/detail/llplepgpoalnkeiofcdohpalgpccifbo)!
 * Fix: keyup issue on aspect ratio custom values
-
-[![](https://img.shields.io/badge/donate-paypal-005EA6.svg)](https://www.paypal.me/ptkdev) [![](https://img.shields.io/badge/donate-patreon-F87668.svg)](https://www.patreon.com/ptkdev) [![](https://img.shields.io/badge/donate-sponsors-ea4aaa.svg)](https://github.com/sponsors/ptkdev/)  [![](https://img.shields.io/badge/donate-ko--fi-29abe0.svg)](https://ko-fi.com/ptkdev)
 
 
 # v1.2.0 (January 11, 2020)

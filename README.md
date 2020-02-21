@@ -4,7 +4,7 @@
 
 # 🖥 Chrome &amp; Edge Extension: Aspect Ratio 21:9
 
-[![](https://img.shields.io/badge/version-v1.2.1-lightgrey.svg)](https://github.com/ptkdev/chrome-extension-aspectratio219/releases) [![](https://img.shields.io/badge/license-MIT-brightgreen.svg)](https://github.com/ptkdev/chrome-extension-aspectratio219/blob/nightly/LICENSE.md) [![](https://img.shields.io/badge/ES-9-F7DF1E.svg)](https://wikipedia.org/wiki/ECMAScript) [![](https://snyk.io/test/github/ptkdev/chrome-extension-aspectratio219/badge.svg)](https://snyk.io/test/github/ptkdev/chrome-extension-aspectratio219)
+[![](https://img.shields.io/badge/version-v1.3.0-lightgrey.svg)](https://github.com/ptkdev/chrome-extension-aspectratio219/releases) [![](https://img.shields.io/badge/license-MIT-brightgreen.svg)](https://github.com/ptkdev/chrome-extension-aspectratio219/blob/nightly/LICENSE.md) [![](https://img.shields.io/badge/ES-9-F7DF1E.svg)](https://wikipedia.org/wiki/ECMAScript) [![](https://snyk.io/test/github/ptkdev/chrome-extension-aspectratio219/badge.svg)](https://snyk.io/test/github/ptkdev/chrome-extension-aspectratio219)
 
 > Fit the screen properly in fullscreen mode on monitor with 21:9 aspect ratio. Work on Netflix, Youtube, PrimeVideo, VVVVID, etc...
 
