@@ -1,6 +1,6 @@
 [![Chrome Extension: Aspect Ratio 21:9](https://raw.githubusercontent.com/ptkdev/chrome-extension-aspectratio219/nightly/.github/assets/aspectratio219.png)](https://chrome.google.com/webstore/detail/aspect-ratio-219/mgpbkhkpghgmihmcfbndejmkaibbnljo)
 
-[![Chrome Extension: Aspect Ratio 21:9](https://raw.githubusercontent.com/ptkdev/chrome-extension-aspectratio219/nightly/.github/assets/badge-availableon-chrome.png)](https://chrome.google.com/webstore/detail/aspect-ratio-219/mgpbkhkpghgmihmcfbndejmkaibbnljo) [![Edge Extension: Aspect Ratio 21:9](https://raw.githubusercontent.com/ptkdev/chrome-extension-aspectratio219/nightly/.github/assets/badge-availableon-edge.png)](https://www.microsoft.com/p/aspect-ratio-219/0rdckbbsk7kr)
+[![Chrome Extension: Aspect Ratio 21:9](https://raw.githubusercontent.com/ptkdev/chrome-extension-aspectratio219/nightly/.github/assets/badge-availableon-chrome.png)](https://chrome.google.com/webstore/detail/aspect-ratio-219/mgpbkhkpghgmihmcfbndejmkaibbnljo) [![Edge Extension: Aspect Ratio 21:9](https://raw.githubusercontent.com/ptkdev/chrome-extension-aspectratio219/nightly/.github/assets/badge-availableon-edge.png)](https://microsoftedge.microsoft.com/addons/detail/llplepgpoalnkeiofcdohpalgpccifbo)
 
 # 🖥 Chrome &amp; Edge Extension: Aspect Ratio 21:9
 
@@ -52,7 +52,7 @@
 [![Aspect Ratio 21:9 - Example](https://raw.githubusercontent.com/ptkdev/chrome-extension-aspectratio219/nightly/.github/assets/screenshot_example.png)](https://raw.githubusercontent.com/ptkdev/chrome-extension-aspectratio219/nightly/.github/assets/screenshot_example.png)
 
 ## 🚀 Installation
-1. Install extension from [chrome store](https://chrome.google.com/webstore/detail/aspect-ratio-219/mgpbkhkpghgmihmcfbndejmkaibbnljo) or [edge store](https://www.microsoft.com/p/aspect-ratio-219/0rdckbbsk7kr).
+1. Install extension from [chrome store](https://chrome.google.com/webstore/detail/aspect-ratio-219/mgpbkhkpghgmihmcfbndejmkaibbnljo) or [edge store](https://microsoftedge.microsoft.com/addons/detail/llplepgpoalnkeiofcdohpalgpccifbo).
 2. Open popup (click on icon of this extension)
 3. Enable netflix
 4. Go to netflix and open video

@@ -5,6 +5,7 @@
 
 
 # v1.2.1 (January 12, 2020)
+* AVAILABLE ON [MICROSOFT EDGE](https://microsoftedge.microsoft.com/addons/detail/llplepgpoalnkeiofcdohpalgpccifbo)!
 * Fix: keyup issue on aspect ratio custom values
 
 
