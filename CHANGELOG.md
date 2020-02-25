@@ -1,7 +1,12 @@
-# v1.3.0 (February 21, 2020)
-* Crunchyroll patch: the next episode not go to full screen mode. NOTE: Crunchyroll player go to fullscreen mode after window load, without interaction.
+# v1.3.1 (February 25, 2020)
+* Rollback: Revert to v1.2.1
+* Crunchyroll patch: not work. Browser not allow close/open fullscreen mode with browser api. `User Failed to execute 'requestFullscreen' on 'Element': API can only be initiated by a user gesture.` required manually action from user. Any workaround not work for me.
 
 [![](https://img.shields.io/badge/donate-paypal-005EA6.svg)](https://www.paypal.me/ptkdev) [![](https://img.shields.io/badge/donate-patreon-F87668.svg)](https://www.patreon.com/ptkdev) [![](https://img.shields.io/badge/donate-sponsors-ea4aaa.svg)](https://github.com/sponsors/ptkdev/)  [![](https://img.shields.io/badge/donate-ko--fi-29abe0.svg)](https://ko-fi.com/ptkdev)
+
+
+# v1.3.0 (February 21, 2020)
+* Crunchyroll patch: the next episode not go to full screen mode. NOTE: Crunchyroll player go to fullscreen mode after window load, without interaction.
 
 
 # v1.2.1 (January 12, 2020)
