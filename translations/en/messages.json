@@ -45,7 +45,7 @@
 		"message": "This extension overwrite css selector <b>transform:scale(x,y)</b>. Read css <a href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/transform-function/scale\" target=\"_blank\"><u>manual</u></a> if you want change this values."
 	},
 	"settings_ratio_desc1": {
-		"message": "You can overwrite default width/height scale of player if you use 32:9 or 19:10 monitors."
+		"message": "You can overwrite default width/height scale of player if you use 32:9 monitors or others."
 	},
 	"donate_thanks": {
 		"message": "Thanks You!"

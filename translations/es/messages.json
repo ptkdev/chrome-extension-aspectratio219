@@ -45,7 +45,7 @@
 		"message": " Esta extensión sobrescribe el selector CSS <b>transform: scale(x, y)</b>. Lee el <a href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/transform-function/scale\" target=\"_blank\"><u>manual</u></a> css si quiere cambiar estos valores."
 	},
 	"settings_ratio_desc1": {
-		"message": "Puede sobrescrivir la escala de ancho/altura predeterminada del reproductor de video si está usando monitores 32:9 o 19:10."
+		"message": "Puede sobrescrivir la escala de ancho/altura predeterminada del reproductor de video si está usando monitores 32:9."
 	},
 	"donate_thanks": {
 		"message": "Gracias!"

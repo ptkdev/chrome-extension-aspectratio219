@@ -45,7 +45,7 @@
 		"message": "Questa estensione sovrascrive il selettore CSS <b>transform: scale(x, y)</b>. Leggi il <a href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/transform-function/scale\" target=\"_blank\"><u>manuale</u></a> css se vuoi cambiare questi valori."
 	},
 	"settings_ratio_desc1": {
-		"message": "È possibile sovrascrivere la scala larghezza/altezza predefinita del player video se si utilizzano monitor 32:9 o 19:10."
+		"message": "È possibile sovrascrivere la scala larghezza/altezza predefinita del player video se si utilizzano monitor 32:9 o altri."
 	},
 	"donate_thanks": {
 		"message": "Grazie!"

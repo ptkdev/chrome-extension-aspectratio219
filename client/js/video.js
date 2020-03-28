@@ -179,6 +179,31 @@ function aspect_ratio(aspectratio_settings) {
 	}
 
 	/*
+	 *	______ _
+	 *	|  _  (_)                       _
+	 *	| | | |_ ___ _ __   ___ _   _ _| |_
+	 *	| | | | / __| '_ \ / _ \ | | |_   _|
+	 *	| |/ /| \__ \ | | |  __/ |_| | |_|
+	 *	|___/ |_|___/_| |_|\___|\__, |
+	 *							__/ |
+	 *							|___/
+	 */
+	if (window.location.href.includes("disneyplus.com") && aspectratio_settings.disney === true) {
+		config = {
+			width: "100%",
+			height: "auto",
+			left: "0",
+			top: "0"
+		};
+
+		let node = document.createElement("style");
+		node.setAttribute("id", "aspect_ratio_disney");
+		node.setAttribute("class", `aspect_ratio`);
+		node.innerHTML = `body video { transform: scale(${aspect_ratio_x},${aspect_ratio_y}) !important; left: ${config.left} !important; top: ${config.top} !important;}`;
+		document.body.appendChild(node);
+	}
+
+	/*
 	 *	 _____                       _                     _ _
 	 *	/  __ \                     | |                   | | |
 	 *	| /  \/_ __ _   _ _ __   ___| |__  _   _ _ __ ___ | | |
@@ -257,7 +282,7 @@ function aspect_ratio(aspectratio_settings) {
 }
 
 window.onload = function() {
-	chrome.storage.local.get(["fullscreen", "youtube", "netflix", "primevideo", "dailymotion", "twitch", "vimeo", "vvvvid", "crunchyroll", "aspect_x", "aspect_y", "domains"], function(aspectratio_settings) {
+	chrome.storage.local.get(["fullscreen", "youtube", "netflix", "primevideo", "dailymotion", "twitch", "vimeo", "vvvvid", "disney", "crunchyroll", "aspect_x", "aspect_y", "domains"], function(aspectratio_settings) {
 		if (aspectratio_settings.fullscreen === true) {
 			document.addEventListener("fullscreenchange", () => {
 				if (document.webkitIsFullScreen) {

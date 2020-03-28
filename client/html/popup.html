@@ -80,6 +80,16 @@
 			<div class="columns is-mobile">
 			  <div class="column">
 				<div class="field">
+				  <input id="checkbox-disney" type="checkbox" name="checkbox-disney" class="switch">
+				  <label for="checkbox-disney">Disney+</label>
+				</div>
+			  </div>
+			  <div class="column">
+			  </div>
+			</div>
+			<div class="columns is-mobile">
+			  <div class="column">
+				<div class="field">
 				  <input id="checkbox-fullscreen" type="checkbox" name="checkbox-fullscreen" class="switch">
 				  <label for="checkbox-fullscreen" lang="settings_fullscreen" lang-type="text">Active only in fullscreen mode</label>
 				</div>
@@ -91,7 +101,14 @@
 			<h1 class="title" lang="settings_ratio_title" lang-type="text">Set ratio value</h1>
 			<div class="columns">
 			  <div class="column">
-			  	<p lang="settings_ratio_desc1" lang-type="text">You can overwrite default width/height scale of player if you use 32:9 or 19:10 monitors.</p><br />
+			  	<p lang="settings_ratio_desc1" lang-type="text">You can overwrite default width/height scale of player if you use 32:9 monitors.</p><br />
+				<div class="columns is-mobile margin-bottom-zero padding-bottom-zero">
+					<div class="column buttons margin-bottom-zero is-centered">
+						<a id="aspect219"><button class="button is-rounded is-small is-button is-centered"><span>21:9</span></button></a>
+						<a id="aspect329"><button class="button is-rounded is-small is-button is-centered"><span>32:9</span></button></a>
+						<a id="aspect1610"><button class="button is-rounded is-small is-button is-centered"><span>16:10</span></button></a>
+					</div>
+				</div>
 			  	<div class="columns is-mobile">
 				    <div class="column"><span lang="settings_ratio_scale_x" lang-type="text">Scale X (width):</span> <input id="aspect_x" class="input is-small" type="number" step="0.01" placeholder="default: 1.33" value="1.33"></div>
 				    <div class="column"><span lang="settings_ratio_scale_y" lang-type="text">Scale Y (height):</span> <input id="aspect_y" class="input is-small" type="number" step="0.01" placeholder="default: 1" value="1"></div>
@@ -99,7 +116,7 @@
 				<div class="columns is-mobile margin-bottom-zero padding-bottom-zero">
 					<div class="column buttons margin-bottom-zero is-centered">
 						<a id="stretch"><button class="button is-rounded is-small is-button is-centered"><span lang="settings_ratio_stretch" lang-type="text">Stretch</span></button></a>
-						<a id="crop"><button class="button is-rounded is-small is-button is-centered"><span lang="settings_ratio_crop" lang-type="text">Crop</span></button></a>
+						<a id="crop"><button class="button is-rounded is-small is-button is-centered"><span lang="settings_ratio_crop" lang-type="text">Crop/Zoom</span></button></a>
 					</div>
 				</div>
 				<p lang="settings_ratio_desc2" lang-type="text">This extension overwrite css selector <b>transform:scale(x,y)</b>. Read css <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/transform-function/scale" target="_blank"><u>manual</u></a> if you want change this values.</p>

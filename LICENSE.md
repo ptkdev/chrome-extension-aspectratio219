@@ -1,6 +1,8 @@
-## MIT License: Code and Contributions
+## MIT License
 
-> Copyright (c) 2018-2019 Patryk Rzucidło (PTKDev)
+> Code and Contributions
+
+Copyright (c) 2020 Patryk Rzucidło (PTKDev)
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -22,9 +24,11 @@ SOFTWARE.
 
 ##### https://choosealicense.com/licenses/mit/
 
-## Creative Commons BY-NC 4.0 License: Images and logos
+## Creative Commons BY-NC 4.0 License
 
-> Copyleft (c) 2018-2019 Patryk Rzucidło (PTKDev)
+> Images and logos
+
+Copyleft (c) 2020 Patryk Rzucidło (PTKDev)
 
 #### You are free to:
 - Share — copy and redistribute the material in any medium or format
@@ -40,9 +44,11 @@ No additional restrictions — You may not apply legal terms or technological me
 
 ##### https://creativecommons.org/licenses/by-nc/4.0/
 
-## Creative Commons BY 4.0 License: Documentation & Translations
+## Creative Commons BY 4.0 License
 
-> Copyleft (c) 2018-2019 Patryk Rzucidło (PTKDev)
+> Documentation & Translations
+
+Copyleft (c) 2020 Patryk Rzucidło (PTKDev)
 
 #### You are free to:
 - Share — copy and redistribute the material in any medium or format

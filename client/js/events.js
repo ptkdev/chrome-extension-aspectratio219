@@ -64,7 +64,7 @@ function patreon() {
 }
 
 function settings_init() {
-	let checkboxs = ["fullscreen", "youtube", "netflix", "primevideo", "dailymotion", "twitch", "vimeo", "vvvvid", "crunchyroll"];
+	let checkboxs = ["fullscreen", "youtube", "netflix", "primevideo", "dailymotion", "twitch", "vimeo", "vvvvid", "disney", "crunchyroll"];
 
 	chrome.storage.local.get(checkboxs, function(data) {
 		data.fullscreen == null ? chrome.storage.local.set({"fullscreen": true}) : null;
@@ -75,6 +75,7 @@ function settings_init() {
 		data.twitch == null ? chrome.storage.local.set({"twitch": false}) : null;
 		data.vimeo == null ? chrome.storage.local.set({"vimeo": false}) : null;
 		data.vvvvid == null ? chrome.storage.local.set({"vvvvid": false}) : null;
+		data.disney == null ? chrome.storage.local.set({"disney": false}) : null;
 		data.crunchyroll == null ? chrome.storage.local.set({"crunchyroll": false}) : null;
 
 		chrome.storage.local.get(checkboxs, function(data) {
@@ -86,6 +87,7 @@ function settings_init() {
 			data.twitch == true ? dom.id(`#checkbox-twitch`).setAttribute("checked", "checked") : dom.id(`#checkbox-twitch`).removeAttribute("checked");
 			data.vimeo == true ? dom.id(`#checkbox-vimeo`).setAttribute("checked", "checked") : dom.id(`#checkbox-vimeo`).removeAttribute("checked");
 			data.vvvvid == true ? dom.id(`#checkbox-vvvvid`).setAttribute("checked", "checked") : dom.id(`#checkbox-vvvvid`).removeAttribute("checked");
+			data.disney == true ? dom.id(`#checkbox-disney`).setAttribute("checked", "checked") : dom.id(`#checkbox-disney`).removeAttribute("checked");
 			data.crunchyroll == true ? dom.id(`#checkbox-crunchyroll`).setAttribute("checked", "checked") : dom.id(`#checkbox-crunchyroll`).removeAttribute("checked");
 		});
 	});
@@ -151,10 +153,8 @@ function settings_aspect() {
 	});
 
 	dom.query("#stretch")[0].addEventListener("click", function() {
-		dom.id("#aspect_x").value = "1.33";
 		dom.id("#aspect_y").value = "1";
 
-		chrome.storage.local.set({"aspect_x": "1.33"});
 		chrome.storage.local.set({"aspect_y": "1"});
 	});
 
@@ -162,6 +162,30 @@ function settings_aspect() {
 		dom.id("#aspect_y").value = dom.id("#aspect_x").value;
 
 		chrome.storage.local.set({"aspect_y": dom.id("#aspect_x").value});
+	});
+
+	dom.query("#aspect219")[0].addEventListener("click", function() {
+		dom.id("#aspect_x").value = "1.33";
+		dom.id("#aspect_y").value = "1";
+
+		chrome.storage.local.set({"aspect_x": "1.33"});
+		chrome.storage.local.set({"aspect_y": "1"});
+	});
+
+	dom.query("#aspect329")[0].addEventListener("click", function() {
+		dom.id("#aspect_x").value = "2";
+		dom.id("#aspect_y").value = "1";
+
+		chrome.storage.local.set({"aspect_x": "2"});
+		chrome.storage.local.set({"aspect_y": "1"});
+	});
+
+	dom.query("#aspect1610")[0].addEventListener("click", function() {
+		dom.id("#aspect_x").value = "1";
+		dom.id("#aspect_y").value = "1";
+
+		chrome.storage.local.set({"aspect_x": "1"});
+		chrome.storage.local.set({"aspect_y": "1"});
 	});
 }
 
