@@ -1,4 +1,5 @@
 # v1.4.0 (March 28, 2020)
+* Feature: Disney+
 * Feature: 21:9 ratio button
 * Feature: 32:9 ratio button
 * Feature: 16:10 ratio button
