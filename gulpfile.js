@@ -54,6 +54,16 @@ gulp.task("build-js-options", function() {
 		.pipe(gulp.dest(`./build/js/`));
 });
 
+gulp.task("build-js-commands", function() {
+	let files = [`./client/js/commands.js`];
+
+	return gulp.src(files)
+		.pipe(gulp_concat({path: "commands.min.tmp"}))
+		.pipe(gulp_minifyjs({output: {comments: false}}))
+		.pipe(gulp_rename("commands.min.js"))
+		.pipe(gulp.dest(`./build/js/`));
+});
+
 gulp.task("build-html", function() {
 	let files = [`./client/html/**/*`];
 
@@ -84,7 +94,7 @@ gulp.task("build-manifest", function() {
 
 gulp.task("build-watch", (done) => {
 	gulp.watch([`./client/css/**/*.scss`]).on("change", gulp.parallel("build-css"));
-	gulp.watch([`./client/js/**/*.js`]).on("change", gulp.parallel("build-js-popup", "build-js-options", "build-js-background"));
+	gulp.watch([`./client/js/**/*.js`]).on("change", gulp.parallel("build-js-popup", "build-js-options", "build-js-commands", "build-js-background"));
 	gulp.watch([`./client/images/**/*`]).on("change", gulp.parallel("build-images"));
 	gulp.watch([`./client/html/**/*`]).on("change", gulp.parallel("build-html"));
 	gulp.watch([`./translations/**/*`]).on("change", gulp.parallel("build-translations"));
@@ -93,6 +103,6 @@ gulp.task("build-watch", (done) => {
 	done();
 });
 
-gulp.task("build", gulp.series("build-css", "build-js-popup", "build-js-options", "build-js-background", "build-html", "build-images", "build-translations", "build-manifest"));
+gulp.task("build", gulp.series("build-css", "build-js-popup", "build-js-options", "build-js-commands", "build-js-background", "build-html", "build-images", "build-translations", "build-manifest"));
 
 gulp.task("dev", gulp.parallel("build-watch"));

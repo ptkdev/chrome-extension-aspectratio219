@@ -2,7 +2,7 @@
 	"name": "__MSG_extName__",
 	"description": "__MSG_description__",
     "manifest_version": 2,
-    "version": "1.4.0",
+    "version": "1.5.0",
     "author": "Patryk Rzucidło [@ptkdev] <support@ptkdev.io> (https://ptk.dev)",
 	"browser_action": {
 		"default_icon":"images/icon_app_128x128.png",
@@ -16,7 +16,39 @@
     },
     "permissions": [
         "storage"
-    ],
+	],
+	"background": {
+		"scripts": [
+		  "js/commands.min.js"
+		],
+		"persistent": false
+	  },
+	"commands": {
+		"toggle-fullscreen-mode": {
+			"global": true,
+			"description": "Toggle \"only in fullscreenmode\""
+		},
+		"toggle-force-default": {
+			"global": true,
+			"description": "Force 16:9 aspect ratio"
+		},
+		"toggle-force-219": {
+			"global": true,
+			"description": "Force 21:9 aspect ratio"
+		},
+		"toggle-force-329": {
+			"global": true,
+			"description": "Force 32:9 aspect ratio"
+		},
+		"toggle-stretch": {
+			"global": true,
+			"description": "Force stretch mode"
+		},
+		"toggle-crop": {
+			"global": true,
+			"description": "Force crop/zoom mode"
+		}
+	},
     "content_scripts": [
         {
             "matches": [

@@ -4,7 +4,7 @@
 
 # 🖥 Chrome &amp; Edge Extension: Aspect Ratio 21:9
 
-[![](https://img.shields.io/badge/version-v1.4.0-lightgrey.svg)](https://github.com/ptkdev/chrome-extension-aspectratio219/releases) [![](https://img.shields.io/badge/license-MIT-brightgreen.svg)](https://github.com/ptkdev/chrome-extension-aspectratio219/blob/nightly/LICENSE.md) [![](https://img.shields.io/badge/ES-9-F7DF1E.svg)](https://wikipedia.org/wiki/ECMAScript) [![](https://snyk.io/test/github/ptkdev/chrome-extension-aspectratio219/badge.svg)](https://snyk.io/test/github/ptkdev/chrome-extension-aspectratio219) [![](https://discordapp.com/api/guilds/383373985666301975/embed.png)](http://discord.ptkdev.io)
+[![](https://img.shields.io/badge/version-v1.5.0-lightgrey.svg)](https://github.com/ptkdev/chrome-extension-aspectratio219/releases) [![](https://img.shields.io/badge/license-MIT-brightgreen.svg)](https://github.com/ptkdev/chrome-extension-aspectratio219/blob/nightly/LICENSE.md) [![](https://img.shields.io/badge/ES-9-F7DF1E.svg)](https://wikipedia.org/wiki/ECMAScript) [![](https://snyk.io/test/github/ptkdev/chrome-extension-aspectratio219/badge.svg)](https://snyk.io/test/github/ptkdev/chrome-extension-aspectratio219) [![](https://discordapp.com/api/guilds/383373985666301975/embed.png)](http://discord.ptkdev.io)
 
 > Fit the screen properly in fullscreen mode on monitor with 21:9 aspect ratio. Work on Netflix, Youtube, PrimeVideo, VVVVID, etc...
 
@@ -19,6 +19,7 @@
 - 💡 [Features](#-features)
 - 👔 [Screenshot](#-screenshot)
 - 🚀 [How to use](#-installation)
+- ⌨️ [Shortcuts](#-shortcuts)
 - 🔨 [Developer mode](#-developer-mode)
 - 📚 [Documentation](#-documentation)
 - ❤️ [Contributing](#-contributing)
@@ -56,6 +57,11 @@
 3. Enable netflix
 4. Go to netflix and open video
 5. Bye bye side black bars!
+
+## ⌨️ Shortcuts
+You can set shortcuts on `chrome://extensions/configureCommands`. No Default shortcuts available.
+
+[![Aspect Ratio 21:9 - Shortcuts](https://raw.githubusercontent.com/ptkdev/chrome-extension-aspectratio219/nightly/.github/assets/shortcuts.png)](https://raw.githubusercontent.com/ptkdev/chrome-extension-aspectratio219/nightly/.github/assets/shortcuts.png)
 
 ## 🔨 Developer Mode
 1. Download [stable](https://github.com/ptkdev/chrome-extension-aspectratio219/archive/master.zip), [beta](https://github.com/ptkdev/chrome-extension-aspectratio219/archive/beta.zip) or [nightly](https://github.com/ptkdev/chrome-extension-aspectratio219/archive/nightly.zip) and extract it.
