@@ -10,7 +10,6 @@
  */
 
 chrome.commands.onCommand.addListener(function(command) {
-	console.log(command);
 	switch (command) {
 		case "toggle-fullscreen-mode":
 			chrome.storage.local.get(["fullscreen"], function(data) {
