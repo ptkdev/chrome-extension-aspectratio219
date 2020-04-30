@@ -67,5 +67,11 @@
 	},
 	"settings_fullscreen": {
 		"message": "Attiva solo in modalità fullscreen"
+	},
+	"settings_shortcuts_title": {
+		"message": "Shortcuts"
+	},
+	"settings_shortcuts": {
+		"message": "Puoi impostare le scorciatoie da tastiera di questa estensione su: <b><a href\"chrome://extensions/configureCommands\" target=\"_blank\">chrome://extensions/configureCommands</a></b>"
 	}
 }

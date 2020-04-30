@@ -67,5 +67,11 @@
 	},
 	"settings_fullscreen": {
 		"message": "Active only in fullscreen mode"
+	},
+	"settings_shortcuts_title": {
+		"message": "Shortcuts"
+	},
+	"settings_shortcuts": {
+		"message": "You can set the keyboard shortcuts for this extension to: <b><a href\"chrome://extensions/configureCommands\" target=\"_blank\">chrome://extensions/configureCommands</a></b>"
 	}
 }

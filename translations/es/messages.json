@@ -67,5 +67,11 @@
 	},
 	"settings_fullscreen": {
 		"message": " Activar solo en modo de pantalla completa"
+	},
+	"settings_shortcuts_title": {
+		"message": "Shortcuts"
+	},
+	"settings_shortcuts": {
+		"message": "Puede configurar los atajos de teclado para esta extensión en: <b><a href\"chrome://extensions/configureCommands\" target=\"_blank\">chrome://extensions/configureCommands</a></b>"
 	}
 }
