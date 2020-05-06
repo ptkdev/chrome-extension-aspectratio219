@@ -72,6 +72,6 @@
 		"message": "Shortcuts"
 	},
 	"settings_shortcuts": {
-		"message": "Możesz ustawić skróty klawiaturowe dla tego rozszerzenia na: <b><a href\"chrome://extensions/configureCommands\" target=\"_blank\">chrome://extensions/configureCommands</a></b>"
+		"message": "Możesz ustawić skróty klawiaturowe dla tego rozszerzenia na: <b><a href='javascript:void()'>chrome://extensions/shortcuts</a></b>"
 	}
 }

@@ -72,6 +72,6 @@
 		"message": "Shortcuts"
 	},
 	"settings_shortcuts": {
-		"message": "Puede configurar los atajos de teclado para esta extensión en: <b><a href\"chrome://extensions/configureCommands\" target=\"_blank\">chrome://extensions/configureCommands</a></b>"
+		"message": "Puede configurar los atajos de teclado para esta extensión en: <b><a href='javascript:void()'>chrome://extensions/shortcuts</a></b>"
 	}
 }

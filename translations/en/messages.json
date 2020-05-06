@@ -72,6 +72,6 @@
 		"message": "Shortcuts"
 	},
 	"settings_shortcuts": {
-		"message": "You can set the keyboard shortcuts for this extension to: <b><a href\"chrome://extensions/configureCommands\" target=\"_blank\">chrome://extensions/configureCommands</a></b>"
+		"message": "You can set the keyboard shortcuts for this extension to: <b><a href='javascript:void()'>chrome://extensions/shortcuts</a></b>"
 	}
 }
