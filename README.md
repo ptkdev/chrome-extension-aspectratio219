@@ -35,7 +35,7 @@
 * [✔️] Customize Aspect ratio value (32:9 and 19:10 monitors)
 * [✔️] Add custom domain and try fix size of player
 * [✔️] ON / OFF buttons
-* [✔️] Netflix
+* [✔️] Netflix (⚠️ Only with Chrome [#4](https://github.com/ptkdev/chrome-extension-aspectratio219/issues/4))
 * [✔️] Youtube
 * [✔️] Prime Video
 * [✔️] Dailymotion
