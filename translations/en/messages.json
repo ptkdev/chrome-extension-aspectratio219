@@ -3,34 +3,34 @@
 		"message": "Aspect Ratio 21:9"
 	},
 	"description": {
-		"message": "Fit the screen properly in fullscreen mode on monitor ultrawide with 21:9 aspect ratio."
+		"message": "Adjust the Fit Screen mode on any ultrawide monitor."
 	},
 	"settings_domains_title": {
 		"message": "Experimental"
 	},
 	"settings_ratio_scale_x": {
-		"message": "Scale X (width):"
+		"message": "X Scale (width):"
 	},
 	"settings": {
 		"message": "Settings"
 	},
 	"settings_ratio_scale_y": {
-		"message": "Scale Y (height):"
+		"message": "Y Scale (height):"
 	},
 	"settings_switch_desc": {
-		"message": "Enable/disable the fit the screen on monitor with 21:9 aspect ratio on these websites:"
+		"message": "Enable/disable Fit Screen mode on monitors with 21:9 aspect ratio on these websites:"
 	},
 	"donate_desc2": {
 		"message": "Do you want to appear here?<br /><br /><b>Donate</b> on Patreon, Github Sponsors or join Ko-Fi's TOP3 sponsors!"
 	},
 	"settings_ratio_title": {
-		"message": "Set ratio value"
+		"message": "Set aspect ratio"
 	},
 	"help": {
 		"message": "Help"
 	},
 	"settings_domains_desc": {
-		"message": "Add a domain (example: videofun.com) and the extension will try to fix size of video player with correct aspect ratio (<b>BETA</b>)"
+		"message": "Add a domain (example: videofun.com) and the extension will try to fix the size of video player with the correct aspect ratio (<b>BETA</b>)"
 	},
 	"donate_desc1": {
 		"message": "Thanks to the people who support me!"
@@ -42,13 +42,13 @@
 		"message": "Donate"
 	},
 	"settings_ratio_desc2": {
-		"message": "This extension overwrite css selector <b>transform:scale(x,y)</b>. Read css <a href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/transform-function/scale\" target=\"_blank\"><u>manual</u></a> if you want change this values."
+		"message": "This extension overwrites the CSS selector <b>transform:scale(x,y)</b>. Read the CSS <a href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/transform-function/scale\" target=\"_blank\"><u>manual</u></a> if you want to change these values."
 	},
 	"settings_ratio_desc1": {
-		"message": "You can overwrite default width/height scale of player if you use 32:9 monitors or others."
+		"message": "You can overwrite the default width/height scale of the player if you use a 32:9 monitor or other ratios."
 	},
 	"donate_thanks": {
-		"message": "Thanks You!"
+		"message": "Thank You!"
 	},
 	"settings_switch_title": {
 		"message": "Aspect Ratio for 21:9"
@@ -57,7 +57,7 @@
 		"message": "E-mail"
 	},
 	"settings_domains_placeholder": {
-		"message": "Write domain and press enter"
+		"message": "Type the domain and press enter"
 	},
 	"help_bug_report": {
 		"message": "Report a Bug"
@@ -66,12 +66,12 @@
 		"message": "Stretch"
 	},
 	"settings_fullscreen": {
-		"message": "Active only in fullscreen mode"
+		"message": "Activate only in fullscreen mode"
 	},
 	"settings_shortcuts_title": {
 		"message": "Shortcuts"
 	},
 	"settings_shortcuts": {
-		"message": "You can set the keyboard shortcuts for this extension to: <b><a href='javascript:void()'>chrome://extensions/shortcuts</a></b>"
+		"message": "You can set keyboard shortcuts for this extension at: <b><a href='javascript:void()'>chrome://extensions/shortcuts</a></b>"
 	}
 }
