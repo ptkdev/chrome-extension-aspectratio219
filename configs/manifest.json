@@ -2,7 +2,7 @@
 	"name": "__MSG_extName__",
 	"description": "__MSG_description__",
     "manifest_version": 2,
-    "version": "1.5.1",
+    "version": "{{version}}",
     "author": "Patryk Rzucidło [@ptkdev] <support@ptkdev.io> (https://ptk.dev)",
 	"browser_action": {
 		"default_icon":"images/icon_app_128x128.png",
@@ -39,6 +39,10 @@
 		"toggle-force-329": {
 			"global": true,
 			"description": "Force 32:9 aspect ratio"
+		},
+		"toggle-force-custom": {
+			"global": true,
+			"description": "Force CUSTOM aspect ratio"
 		},
 		"toggle-stretch": {
 			"global": true,

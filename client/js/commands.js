@@ -20,6 +20,12 @@ chrome.commands.onCommand.addListener(function(command) {
 			chrome.storage.local.set({"aspect_x": "1"});
 			chrome.storage.local.set({"aspect_y": "1"});
 		  break;
+		case "toggle-force-custom":
+			chrome.storage.local.get(["aspect_x_custom", "aspect_y_custom"], function(data) {
+				chrome.storage.local.set({"aspect_x": data.aspect_x_custom});
+				chrome.storage.local.set({"aspect_y": data.aspect_y_custom});
+			});
+		  break;
 		case "toggle-force-219":
 			chrome.storage.local.set({"aspect_x": "1.33"});
 			chrome.storage.local.set({"aspect_y": "1"});

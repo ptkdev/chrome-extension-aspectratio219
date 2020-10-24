@@ -1,8 +1,12 @@
-# v1.5.1 (May 06, 2020)
-* Fix: shortcuts issues
+# v1.5.2 (October 24, 2020)
+* Fix: 🇬🇧 Translations
+* Feature: custom shortcuts ([#5](https://github.com/ptkdev/chrome-extension-aspectratio219/issues/5]))
 
 [![](https://img.shields.io/badge/donate-paypal-005EA6.svg?logo=paypal)](https://www.paypal.me/ptkdev) [![](https://img.shields.io/badge/donate-patreon-F87668.svg?logo=patreon)](https://www.patreon.com/ptkdev) [![](https://img.shields.io/badge/donate-sponsors-ea4aaa.svg?logo=github)](https://github.com/sponsors/ptkdev/)  [![](https://img.shields.io/badge/donate-ko--fi-29abe0.svg?logo=ko-fi)](https://ko-fi.com/ptkdev)
 
+
+# v1.5.1 (May 06, 2020)
+* Fix: shortcuts issues
 
 # v1.5.0 (April 30, 2020)
 * Feature: shortcuts (#3)
@@ -11,7 +15,7 @@
 * Feature: Disney+
 * Feature: 21:9 ratio button
 * Feature: 32:9 ratio button
-* Feature: 16:10 ratio button
+* Feature: 16:9 ratio button
 
 # v1.3.2 (March 17, 2020)
 * Security: removed useless permissions

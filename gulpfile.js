@@ -14,6 +14,8 @@ const gulp_sass = require("gulp-sass");
 const gulp_minifycss = require("gulp-clean-css");
 const gulp_minifyjs = require("gulp-terser");
 const gulp_rename = require("gulp-rename");
+const gulp_replace = require("gulp-replace");
+const version = require("./package.json").version;
 
 gulp.task("build-css", function() {
 	return gulp.src([`./node_modules/bulma/css/bulma.min.css`, `./node_modules/bulma-extensions/dist/css/bulma-extensions.min.css`, `./node_modules/bulma-extensions/bulma-tagsinput/dist/css/bulma-tagsinput.min.css`, `./client/css/main.scss`, `./client/css/colors.scss`])
@@ -89,6 +91,7 @@ gulp.task("build-manifest", function() {
 	let files = [`./configs/manifest.json`];
 
 	return gulp.src(files)
+		.pipe(gulp_replace("{{version}}", version))
 		.pipe(gulp.dest(`./build/`));
 });
 

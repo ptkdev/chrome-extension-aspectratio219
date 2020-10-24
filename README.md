@@ -4,7 +4,7 @@
 
 # 🖥 Chrome &amp; Edge Extension: Aspect Ratio 21:9
 
-[![](https://img.shields.io/badge/version-v1.5.1-lightgrey.svg)](https://github.com/ptkdev/chrome-extension-aspectratio219/releases) [![](https://img.shields.io/badge/license-MIT-brightgreen.svg)](https://github.com/ptkdev/chrome-extension-aspectratio219/blob/nightly/LICENSE.md) [![](https://img.shields.io/badge/ES-9-F7DF1E.svg)](https://wikipedia.org/wiki/ECMAScript) [![](https://snyk.io/test/github/ptkdev/chrome-extension-aspectratio219/badge.svg)](https://snyk.io/test/github/ptkdev/chrome-extension-aspectratio219) [![](https://discordapp.com/api/guilds/383373985666301975/embed.png)](http://discord.ptkdev.io)
+[![](https://img.shields.io/badge/version-v1.5.2-lightgrey.svg)](https://github.com/ptkdev/chrome-extension-aspectratio219/releases) [![](https://img.shields.io/badge/license-MIT-brightgreen.svg)](https://github.com/ptkdev/chrome-extension-aspectratio219/blob/nightly/LICENSE.md) [![](https://img.shields.io/badge/ES-9-F7DF1E.svg)](https://wikipedia.org/wiki/ECMAScript) [![](https://snyk.io/test/github/ptkdev/chrome-extension-aspectratio219/badge.svg)](https://snyk.io/test/github/ptkdev/chrome-extension-aspectratio219) [![](https://discordapp.com/api/guilds/383373985666301975/embed.png)](http://discord.ptkdev.io)
 
 > Fit the screen properly in fullscreen mode on monitor with 21:9 aspect ratio. Work on Netflix, Youtube, PrimeVideo, VVVVID, etc...
 
@@ -97,13 +97,15 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <!-- markdownlint-disable -->
 <table>
   <tr>
-    <td align="center"><a href="https://ptk.dev"><img src="https://avatars1.githubusercontent.com/u/442844?v=4" width="100px;" alt=""/><br /><sub><b>Patryk Rzucidło</b></sub></a><br /><a href="https://github.com/ptkdev/chrome-extension-aspectratio219/commits?author=ptkdev" title="Code">💻</a> <a href="#translation-ptkdev" title="Translation">🌍</a></td>
-    <td align="center"><a href="https://www.smodatamente.it"><img src="https://avatars1.githubusercontent.com/u/35865603?v=4" width="100px;" alt=""/><br /><sub><b>Angelica Losi</b></sub></a><br /><a href="#translation-angylosi" title="Translation">🌍</a></td>
+    <td align="center"><a href="https://ptk.dev"><img src="https://avatars1.githubusercontent.com/u/442844?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Patryk Rzucidło</b></sub></a><br /><a href="https://github.com/ptkdev/chrome-extension-aspectratio219/commits?author=ptkdev" title="Code">💻</a> <a href="#translation-ptkdev" title="Translation">🌍</a></td>
+    <td align="center"><a href="https://www.smodatamente.it"><img src="https://avatars1.githubusercontent.com/u/35865603?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Angelica Losi</b></sub></a><br /><a href="#translation-angylosi" title="Translation">🌍</a></td>
+    <td align="center"><a href="https://github.com/MhzDev"><img src="https://avatars1.githubusercontent.com/u/11082895?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Michele Stefanelli</b></sub></a><br /><a href="#translation-MhzDev" title="Translation">🌍</a></td>
   </tr>
 </table>
 
-<!-- markdownlint-enable -->
+<!-- markdownlint-restore -->
 <!-- prettier-ignore-end -->
+
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
 > 💰 In the future, if the donations allow it, I would like to share some of the success with those who helped me the most. For me open source is share of code, share development knowledges and share donations!
