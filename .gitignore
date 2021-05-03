@@ -42,6 +42,8 @@ proguard/
 logs/*.log
 logs/screenshots/*.png
 logs/screenshots/*.jpg
+examples/*.log
+examples/*.json
 databases/*.db
 databases/*.sql
 databases/*.json
@@ -49,7 +51,6 @@ databases/*.json
 *.sql
 *.sqlite
 *.lock
-*.vscode
 yarn-debug.log
 yarn-error.log
 
@@ -115,7 +116,13 @@ pids
 npm-debug.log
 /node_modules
 
+# Husky #
+/.husky/_/
+
 # App #
 #######
-*.pem
-*.crx
+/app/configs/config.js
+/app/configs/config.ts
+/extra
+/dist
+/build

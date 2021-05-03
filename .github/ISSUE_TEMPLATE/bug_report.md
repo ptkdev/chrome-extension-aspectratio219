@@ -1,6 +1,6 @@
 ---
 name: 🐛 Bug report
-about: Create a report to help us improve
+about: Create a report to help us improve (low priority)
 ---
 
 <!-- Please search existing issues to avoid creating duplicates, remember before the title text add tag: [Bug report] -->
@@ -9,11 +9,10 @@ about: Create a report to help us improve
 
 <!-- Replace or update the values below with your own: -->
 
-- **Chrome Version:** v79
-- **Plugin Version:** v0.0.2
-- **Monitor resolution:** 2048x1080 (2k)
-- **Operating System:** Windows 10
-
+-   **App Version:** v1.0.0
+-   **Node Version:** v13.0.0
+-   **Operating System:** Windows 10
+-   **Browser:** Google Chrome v80
 
 ### Expected Behavior
 
@@ -36,3 +35,12 @@ much detail as possible. -->
 ### Screenshots (Optional)
 
 <!-- If the error is graphical in nature it is helpful to provide a screenshot below this line. -->
+
+<!--
+PAID SUPPORT :
+If you need paid support with hight priority donate correct tier on:
+- https://github.com/sponsors/ptkdev
+- https://www.patreon.com/join/ptkdev
+
+Please send me an email (support@ptkdev.io) before donation, i try provide correct price quotation for your bug or new feature.
+-->
