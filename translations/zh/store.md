@@ -6,6 +6,7 @@
 3. 启用netflix选项
 4. 转到netflix并打开视频
 5. 再见，大黑边！
+
 💫 许可证
 - 代码和贡献具有MIT许可证
 - Opensource: https://github.com/ptkdev/chrome-extension-aspectratio219
