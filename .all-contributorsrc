@@ -33,6 +33,15 @@
 			"contributions": [
 				"translation"
 			]
+		},
+		{
+			"login": "Luccanog",
+			"name": "Lucca Nogueira",
+			"avatar_url": "https://avatars.githubusercontent.com/u/55986783?v=4",
+			"profile": "https://github.com/luccanog",
+			"contributions": [
+				"code"
+			]
 		}
 	],
 	"contributorsPerLine": 6
