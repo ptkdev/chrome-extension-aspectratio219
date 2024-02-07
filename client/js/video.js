@@ -57,7 +57,7 @@ function aspect_ratio(aspectratio_settings) {
 		let node = document.createElement("style");
 		node.setAttribute("id", "aspect_ratio_netflix");
 		node.setAttribute("class", `aspect_ratio`);
-		node.innerHTML = `body video { transform: scale(${aspect_ratio_x},${aspect_ratio_y}) !important; left: ${config.left} !important; top: ${config.top} !important;}`;
+		node.innerHTML = `body video { transform: translate(-50%, -50%) scale(${aspect_ratio_x},${aspect_ratio_y}) !important;}`;
 		document.body.appendChild(node);
 	}
 
