@@ -97,12 +97,12 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <!-- prettier-ignore-start -->
 <!-- markdownlint-disable -->
 <table>
-  <tr>
-    <td align="center"><a href="https://ptk.dev"><img src="https://avatars1.githubusercontent.com/u/442844?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Patryk Rzucidło</b></sub></a><br /><a href="https://github.com/ptkdev/chrome-extension-aspectratio219/commits?author=ptkdev" title="Code">💻</a> <a href="#translation-ptkdev" title="Translation">🌍</a></td>
-    <td align="center"><a href="https://www.smodatamente.it"><img src="https://avatars1.githubusercontent.com/u/35865603?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Angelica Losi</b></sub></a><br /><a href="#translation-angylosi" title="Translation">🌍</a></td>
-    <td align="center"><a href="https://github.com/MhzDev"><img src="https://avatars1.githubusercontent.com/u/11082895?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Michele Stefanelli</b></sub></a><br /><a href="#translation-MhzDev" title="Translation">🌍</a></td>
-    <td align="center"><a href="https://github.com/luccanog"><img src="https://avatars.githubusercontent.com/u/55986783?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Lucca Nogueira</b></sub></a><br /><a href="https://github.com/ptkdev/chrome-extension-aspectratio219/commits?author=Luccanog" title="Code">💻</a></td>
-  </tr>
+  <tbody>
+    <tr>
+      <td align="center" valign="top" width="16.66%"><a href="https://ptk.dev"><img src="https://avatars1.githubusercontent.com/u/442844?v=4?s=100" width="100px;" alt="Patryk Rzucidło"/><br /><sub><b>Patryk Rzucidło</b></sub></a><br /><a href="https://github.com/ptkdev/ptkdev-boilerplate/svelte-spa-boilerplate/commits?author=ptkdev" title="Code">💻</a> <a href="#translation-ptkdev" title="Translation">🌍</a> <a href="https://github.com/ptkdev/ptkdev-boilerplate/svelte-spa-boilerplate/commits?author=ptkdev" title="Documentation">📖</a> <a href="https://github.com/ptkdev/ptkdev-boilerplate/svelte-spa-boilerplate/issues?q=author%3Aptkdev" title="Bug reports">🐛</a></td>
+      <td align="center" valign="top" width="16.66%"><a href="https://github.com/luccanog"><img src="https://avatars.githubusercontent.com/u/55986783?v=4?s=100" width="100px;" alt="Lucca Nogueira"/><br /><sub><b>Lucca Nogueira</b></sub></a><br /><a href="https://github.com/ptkdev/ptkdev-boilerplate/svelte-spa-boilerplate/commits?author=Luccanog" title="Code">💻</a></td>
+    </tr>
+  </tbody>
 </table>
 
 <!-- markdownlint-restore -->
