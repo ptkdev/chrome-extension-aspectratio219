@@ -1,0 +1,77 @@
+{
+	"extName": {
+		"message": "Aspect Ratio 21:9"
+	},
+	"description": {
+		"message": "在任何宽屏显示器上调整适合的纵横比。"
+	},
+	"settings_domains_title": {
+		"message": "试验性的"
+	},
+	"settings_ratio_scale_x": {
+		"message": "X 比例（宽度）:"
+	},
+	"settings": {
+		"message": "设置"
+	},
+	"settings_ratio_scale_y": {
+		"message": "Y 比例（高度）:"
+	},
+	"settings_switch_desc": {
+		"message": "在以下网站上启用/禁用宽高比为21:9的显示器上的适合的纵横比："
+	},
+	"donate_desc2": {
+		"message": "你想出现在这里吗?<br /><br /> 可以在Patreon,、Github或者Ko-Fi上面通过捐赠支持我!"
+	},
+	"settings_ratio_title": {
+		"message": "设置纵横比"
+	},
+	"help": {
+		"message": "帮助"
+	},
+	"settings_domains_desc": {
+		"message": "添加一个域名（例如：videofun.com），扩展将尝试使用正确的纵横比（<b>BETA版</b>）固定视频播放器的大小"
+	},
+	"donate_desc1": {
+		"message": "感谢那些支持我的人！"
+	},
+	"settings_ratio_crop": {
+		"message": "裁剪/缩放"
+	},
+	"donate": {
+		"message": "捐赠"
+	},
+	"settings_ratio_desc2": {
+		"message": "此扩展将覆盖CSS选择器 <b>transform:scale(x,y)</b>.。如果要更改这些值，请阅读CSS <a href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/transform-function/scale\" target=\"_blank\"><u>手册</u></a>。"
+	},
+	"settings_ratio_desc1": {
+		"message": "如果使用32:9显示器或其他比率，则可以覆盖播放器的默认宽度/高度比例。"
+	},
+	"donate_thanks": {
+		"message": "感谢!"
+	},
+	"settings_switch_title": {
+		"message": "Aspect Ratio for 21:9"
+	},
+	"help_email": {
+		"message": "邮件"
+	},
+	"settings_domains_placeholder": {
+		"message": "输入域名并按确认键"
+	},
+	"help_bug_report": {
+		"message": "报告错误"
+	},
+	"settings_ratio_stretch": {
+		"message": "拓展"
+	},
+	"settings_fullscreen": {
+		"message": "仅在全屏模式下激活"
+	},
+	"settings_shortcuts_title": {
+		"message": "键盘快捷键"
+	},
+	"settings_shortcuts": {
+		"message": "您可以在以下位置设置此扩展的键盘快捷键: <b><a href='javascript:void()'>chrome://extensions/shortcuts</a></b>"
+	}
+}
