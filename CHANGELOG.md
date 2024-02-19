@@ -1,57 +1,14 @@
-# v1.5.2 (October 24, 2020)
-* Fix: 🇬🇧 Translations
-* Feature: custom shortcuts ([#5](https://github.com/ptkdev/chrome-extension-aspectratio219/issues/5]))
+# v1.0.20210412 (April 12, 2021)
 
-[![](https://img.shields.io/badge/donate-paypal-005EA6.svg?logo=paypal)](https://www.paypal.me/ptkdev) [![](https://img.shields.io/badge/donate-patreon-F87668.svg?logo=patreon)](https://www.patreon.com/ptkdev) [![](https://img.shields.io/badge/donate-sponsors-ea4aaa.svg?logo=github)](https://github.com/sponsors/ptkdev/)  [![](https://img.shields.io/badge/donate-ko--fi-29abe0.svg?logo=ko-fi)](https://ko-fi.com/ptkdev)
+-   Fix: minor fix
+-   Fix: readme of issues
 
+<!-- all-shields/sponsors-badges:START -->
 
-# v1.5.1 (May 06, 2020)
-* Fix: shortcuts issues
+[![Donate Paypal](https://img.shields.io/badge/donate-paypal-005EA6.svg?style=for-the-badge&logo=paypal)](https://www.paypal.me/ptkdev) [![Donate Ko-Fi](https://img.shields.io/badge/donate-ko--fi-29abe0.svg?style=for-the-badge&logo=ko-fi)](https://ko-fi.com/ptkdev) [![Donate Github Sponsors](https://img.shields.io/badge/donate-sponsors-ea4aaa.svg?style=for-the-badge&logo=github)](https://github.com/sponsors/ptkdev) [![Donate Patreon](https://img.shields.io/badge/donate-patreon-F87668.svg?style=for-the-badge&logo=patreon)](https://www.patreon.com/join/ptkdev) [![Donate Bitcoin](https://img.shields.io/badge/BTC-35jQmZCy4nsxoMM3QPFrnZePDVhdKaHMRH-E38B29.svg?style=flat-square&logo=bitcoin)](https://ptk.dev/img/icons/menu/bitcoin_wallet.png) [![Donate Ethereum](https://img.shields.io/badge/ETH-0x8b8171661bEb032828e82baBb0B5B98Ba8fBEBFc-4E8EE9.svg?style=flat-square&logo=ethereum)](https://ptk.dev/img/icons/menu/ethereum_wallet.png)
 
-# v1.5.0 (April 30, 2020)
-* Feature: shortcuts (#3)
+<!-- all-shields/sponsors-badges:END -->
 
-# v1.4.0 (March 28, 2020)
-* Feature: Disney+
-* Feature: 21:9 ratio button
-* Feature: 32:9 ratio button
-* Feature: 16:9 ratio button
+# v1.0.20210402 (April 02, 2021)
 
-# v1.3.2 (March 17, 2020)
-* Security: removed useless permissions
-
-# v1.3.1 (February 25, 2020)
-* Rollback: Revert to v1.2.1
-* Crunchyroll patch: not work. Browser not allow close/open fullscreen mode with browser api. `User Failed to execute 'requestFullscreen' on 'Element': API can only be initiated by a user gesture.` required manually action from user. Any workaround not work for me.
-
-# v1.3.0 (February 21, 2020)
-* Crunchyroll patch: the next episode not go to full screen mode. NOTE: Crunchyroll player go to fullscreen mode after window load, without interaction.
-
-# v1.2.1 (January 12, 2020)
-* AVAILABLE ON [MICROSOFT EDGE](https://microsoftedge.microsoft.com/addons/detail/llplepgpoalnkeiofcdohpalgpccifbo)!
-* Fix: keyup issue on aspect ratio custom values
-
-# v1.2.0 (January 11, 2020)
-* Translations: 🇪🇸
-
-# v1.1.0 (January 10, 2020)
-* Feature: detect fullscreen
-
-# v1.0.0 (January 09, 2020)
-* Fix: youtube on/off switch
-* Fix: twitch on/off switch
-* Translations (Italian / English / Polish)
-
-# v0.0.3 (January 08, 2020)
-* Developer mode: build system
-* Support: Crunchyroll
-* Support: Twitch
-* Feature: Crop
-* Feature: Donate tab
-* Feature: Support tab
-* Feature: Customize Aspect ratio value
-* Feature: Add custom domain and try fix size of html5 player
-* Feature: ON / OFF supported video websites
-
-# v0.0.2 (December 29, 2019)
-* First Release.
+-   First release

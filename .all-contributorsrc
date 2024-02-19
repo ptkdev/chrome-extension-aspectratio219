@@ -1,6 +1,8 @@
 {
-	"projectName": "chrome-extension-aspectratio219",
+	"projectName": "ptkdev-boilerplate/svelte-spa-boilerplate",
 	"projectOwner": "ptkdev",
+	"repoType": "github",
+	"repoHost": "https://github.com",
 	"files": [
 		"README.md"
 	],
@@ -13,25 +15,10 @@
 			"avatar_url": "https://avatars1.githubusercontent.com/u/442844?v=4",
 			"profile": "https://ptk.dev",
 			"contributions": [
-				"code", "translation"
-			]
-		},
-		{
-			"login": "angylosi",
-			"name": "Angelica Losi",
-			"avatar_url": "https://avatars1.githubusercontent.com/u/35865603?v=4",
-			"profile": "https://www.smodatamente.it",
-			"contributions": [
-				"translation"
-			]
-		},
-		{
-			"login": "MhzDev",
-			"name": "Michele Stefanelli",
-			"avatar_url": "https://avatars1.githubusercontent.com/u/11082895?v=4",
-			"profile": "https://github.com/MhzDev",
-			"contributions": [
-				"translation"
+				"code",
+				"translation",
+				"doc",
+				"bug"
 			]
 		},
 		{
@@ -44,5 +31,6 @@
 			]
 		}
 	],
-	"contributorsPerLine": 6
+	"contributorsPerLine": 6,
+	"commitConvention": "none"
 }
